@@ -1,0 +1,11 @@
+O:9:"MagpieRSS":22:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:2:{i:0;a:7:{s:5:"title";s:19:"Web - webseitentest";s:4:"link";s:43:"https://chili.hackerspace-bremen.de/news/15";s:2:"id";s:43:"https://chili.hackerspace-bremen.de/news/15";s:7:"updated";s:25:"2013-01-22T23:34:17+01:00";s:6:"author";s:12:"
+      
+    ";s:11:"author_name";s:8:"danielwf";s:12:"atom_content";s:41:"
+<p>diese nachricht wird gelöscht</p>    ";}i:1;a:7:{s:5:"title";s:19:"Web - Neue Webseite";s:4:"link";s:43:"https://chili.hackerspace-bremen.de/news/14";s:2:"id";s:43:"https://chili.hackerspace-bremen.de/news/14";s:7:"updated";s:25:"2013-01-22T22:42:46+01:00";s:6:"author";s:12:"
+      
+    ";s:11:"author_name";s:8:"danielwf";s:12:"atom_content";s:44:"
+<p>"Platzhalter für Eröffnungstext"</p>    ";}}s:7:"channel";a:8:{s:5:"title";s:18:"ChiliProject: News";s:9:"link_self";s:90:"https://chili.hackerspace-bremen.de/news.atom?key=805614cad417775206a812eee70fbec4fc596ffb";s:4:"link";s:40:"https://chili.hackerspace-bremen.de/news";s:2:"id";s:36:"https://chili.hackerspace-bremen.de/";s:7:"updated";s:25:"2013-01-22T23:34:17+01:00";s:6:"author";s:8:"
+    
+  ";s:11:"author_name";s:12:"ChiliProject";s:9:"generator";s:15:"
+ChiliProject  ";}s:9:"textinput";a:0:{}s:5:"image";a:0:{}s:9:"feed_type";s:4:"Atom";s:12:"feed_version";N;s:8:"encoding";s:10:"ISO-8859-1";s:16:"_source_encoding";s:0:"";s:5:"ERROR";s:0:"";s:7:"WARNING";s:0:"";s:19:"_CONTENT_CONSTRUCTS";a:6:{i:0;s:7:"content";i:1;s:7:"summary";i:2;s:4:"info";i:3;s:5:"title";i:4;s:7:"tagline";i:5;s:9:"copyright";}s:16:"_KNOWN_ENCODINGS";a:3:{i:0;s:5:"UTF-8";i:1;s:8:"US-ASCII";i:2;s:10:"ISO-8859-1";}s:5:"stack";a:0:{}s:9:"inchannel";b:0;s:6:"initem";b:0;s:9:"incontent";b:0;s:11:"intextinput";b:0;s:7:"inimage";b:0;s:17:"current_namespace";b:0;s:4:"etag";s:36:""6f2dd1f19b2f239bb07e9e73be08e4f4"
+";}

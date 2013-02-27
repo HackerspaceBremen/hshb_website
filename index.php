@@ -153,7 +153,7 @@ Bremen, entwerfen, programmieren, löten, bauen, Workshops, Vorträge, Kunst, Ha
 
 <?php
 // Anzeige des letzten PHP-Fehlers
- print_r(error_get_last());
+// print_r(error_get_last());
 ?>
 
 

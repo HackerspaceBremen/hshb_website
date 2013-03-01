@@ -118,7 +118,7 @@ Bremen, entwerfen, programmieren, löten, bauen, Workshops, Vorträge, Kunst, Ha
 								if($json_output['RESULT']['ST3'] === 'CLOSED'){
 									echo 'Der Space ist geschlossen';	
 								}elseif ($json_output['RESULT']['ST3'] === 'OPEN'){
-									echo 'Der Space ist offen';
+									echo 'Der Space ist geöffnet';
 								}
 			 				?>
 					</h2>

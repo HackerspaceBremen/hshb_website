@@ -112,7 +112,7 @@ Bremen, entwerfen, programmieren, löten, bauen, Workshops, Vorträge, Kunst, Ha
                   <td>
                      <h2>			
 			 				<?php
-								$jsonurl = "https://hackerspacehb.appspot.com/status";
+								$jsonurl = "https://hackerspacehb.appspot.com/status?format=de&htmlEncoded=true";
 								$json = file_get_contents($jsonurl);
 								$json_output = json_decode($json,true);				
 								if($json_output['RESULT']['ST3'] === 'CLOSED'){
@@ -124,9 +124,6 @@ Bremen, entwerfen, programmieren, löten, bauen, Workshops, Vorträge, Kunst, Ha
 					</h2>
 					<h3>
 			 				<?php
-								$jsonurl = "https://hackerspacehb.appspot.com/status";
-								$json = file_get_contents($jsonurl);
-								$json_output = json_decode($json,true);				
 								echo $json_output['RESULT']['ST5'];	
 			 				?>
 					</h3>

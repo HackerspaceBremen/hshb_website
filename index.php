@@ -53,7 +53,7 @@ Bremen, entwerfen, programmieren, löten, bauen, Workshops, Vorträge, Kunst, Ha
 
             <img src="logo.png" width=180></img>
 
-			<a href="http://www.hackerspace-bremen.de" target=_blank><h1>Newsletter (bald)</h1></a>
+			<!--<a href="http://www.hackerspace-bremen.de" target=_blank><h1>Newsletter (bald)</h1></a>-->
 			
 			<h1>Follow on</h1>
 			<li><a href="http://www.facebook.com/pages/Hackerspace-Bremen/217887601561428?ref=ts" target=_blank>Facebook</a></li>
@@ -115,7 +115,11 @@ Bremen, entwerfen, programmieren, löten, bauen, Workshops, Vorträge, Kunst, Ha
 								$jsonurl = "https://hackerspacehb.appspot.com/status";
 								$json = file_get_contents($jsonurl);
 								$json_output = json_decode($json,true);				
-								echo $json_output['RESULT']['ST3'];	
+								if($json_output['RESULT']['ST3'] === 'CLOSED'){
+									echo 'Der Space ist geschlossen';	
+								}elseif ($json_output['RESULT']['ST3'] === 'OPEN'){
+									echo 'Der Space ist offen';
+								}
 			 				?>
 					</h2>
 					<h3>
@@ -127,7 +131,7 @@ Bremen, entwerfen, programmieren, löten, bauen, Workshops, Vorträge, Kunst, Ha
 			 				?>
 					</h3>
 					<a href="https://play.google.com/store/apps/details?id=de.hackerspacebremen"><img alt="Get it on Google Play" src="./gplay.png" width=100 />
-<a href="https://chrome.google.com/webstore/detail/hackerspace-bremen/apadeikhfnipflbiglhdcilnfocbikhc"><img alt="Get it in the Chrome Web Store" src="./chrome-ext.png" width=100 /></a></br>
+					<a href="https://chrome.google.com/webstore/detail/hackerspace-bremen/apadeikhfnipflbiglhdcilnfocbikhc"><img alt="Get it in the Chrome Web Store" src="./chrome-ext.png" width=100 /></a></br>
 
                   </td>
                </tr>

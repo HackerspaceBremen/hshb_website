@@ -1,4 +1,4 @@
-<!--- Kopfzeile -->
+﻿<!--- Kopfzeile -->
 
 <div id="head">
 	<table width=960 height=27 border=0 cellspacing="0" cellpadding="0" background="#top.png" >
@@ -8,7 +8,7 @@
 				<ul>
 					<li><a href="http://www.hackerspace-bremen.de">Startseite</a></li>
 					<li>|</li>
-					<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/%C3%9Cber_uns">�ber uns</a></li>
+					<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/%C3%9Cber_uns">Über uns</a></li>
 					<li>|</li>
 					<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Location">Location</a></li>
 					<li>|</li>

@@ -17,49 +17,8 @@
 		<div id="body">
 			<div id="accessibility"></div>
 			<div id="container">
-				<!--- Kopfzeile -->
-
-				<div id="head">
-					<table width=960 height=27 border=0 cellspacing="0" cellpadding="0" background="#top.png" >
-						<tr>
-							<td width=200></td>
-							<td align=left>
-								<ul>
-									<li><a href="http://www.hackerspace-bremen.de">Startseite</a></li>
-									<li>|</li>
-									<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/%C3%9Cber_uns">Über uns</a></li>
-									<li>|</li>
-									<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Location">Location</a></li>
-									<li>|</li>
-									<li><a href="https://chili.hackerspace-bremen.de/projects">Projekte</a></li>
-									<li>|</li>
-									<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Regelm%C3%A4%C3%9Fige_Termine"> Veranstaltungen </a></li>
-									<li>|</li>
-									<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren"> Sponsoren </a></li>
-								</ul>
-							</td>
-							<td align=right><div id="impressum"><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Impressum">Impressum</a></div></td>
-						</tr>
-					</table>
-				</div>
-				<!-- linke Seitenleiste -->
-
-				<div id="sidebar-1">
-
-					<img src="logo.png" width=180></img>
-
-					<!--<a href="http://www.hackerspace-bremen.de" target=_blank><h1>Newsletter (bald)</h1></a>-->
-
-					<h1>Follow on</h1>
-					<ul>
-						<li><a href="http://www.facebook.com/pages/Hackerspace-Bremen/217887601561428?ref=ts" target=_blank>Facebook</a></li>
-						<li><a href="https://plus.google.com/106849621647585475724" target=_blank>Google+</a></li>
-					</ul>
-					<br><a href="HackerspaceBremen-Flyer.pdf" target=_blank><img src=flyer.jpg width=80></img>Download Flyer (PDF)</a>
-					<br></br><a href="https://chili.hackerspace-bremen.de/attachments/download/5/Satzung.pdf" target=_blank>Download Satzung (PDF)</a>
-					<br></br><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Mitglied_werden">&rarr; Mitglied werden</a>
-
-				</div>
+				<? include ("basicPhps/header.php"); ?>
+				<? include ("basicPhps/leftside.php"); ?>
 				<!-- Hauptbereich -->
 				<div id="content">
 					<a href="http://chili.hackerspace-bremen.de/projects/web/wiki/Wiki"><img src="banner.png" border=0 width=470></img></a>

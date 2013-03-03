@@ -34,11 +34,11 @@
 		<tr>
 			<td>
 				Montags, 19:00-21:00 <br>&rarr;<b>Open Space</b>
-				<br />Dienstags, ab 19:00 <br>&rarr;<b>Öffentlicher Themenabend</b>
-				<br />Mittwochs, ab 17:00 <br>&rarr;<b>Roboter bauen und programmieren</b>
-				<br />Mittwochs, 19:00-21:00 <br>&rarr;<b>eve(ning) of projects</b>
-				<br />Donnerstags, 19:00-21:00 <br>&rarr;<b>SDR-Abend</b>
-				<br />Freitags, 19:00-21:00 <br>&rarr;<b>Rapid Prototyping</b>
+				<br /><br />Dienstags, ab 19:00 <br>&rarr;<b>Öffentlicher Themenabend</b>
+				<br /><br />Mittwochs, ab 17:00 <br>&rarr;<b>Roboter bauen und programmieren</b>
+				<br /><br />Mittwochs, 19:00-21:00 <br>&rarr;<b>eve(ning) of projects</b>
+				<br /><br />Donnerstags, 19:00-21:00 <br>&rarr;<b>SDR-Abend</b>
+				<br /><br />Freitags, 19:00-21:00 <br>&rarr;<b>Rapid Prototyping</b>
 			</td>
 		</tr>
 	</table>

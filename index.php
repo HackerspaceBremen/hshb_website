@@ -17,8 +17,47 @@
 		<div id="body">
 			<div id="accessibility"></div>
 			<div id="container">
-				<? include 'basicPhps/header.php'; ?>
-				<? include 'basicPhps/leftside.php'; ?>
+				<!--- Kopfzeile -->
+
+				<div id="head">
+					<table width=960 height=27 border=0 cellspacing="0" cellpadding="0" background="#top.png" >
+						<tr>
+							<td width=200></td>
+							<td align=left>
+								<ul>
+									<li><a href="http://www.hackerspace-bremen.de">Startseite</a></li>
+									<li>|</li>
+									<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/%C3%9Cber_uns">Über uns</a></li>
+									<li>|</li>
+									<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Location">Location</a></li>
+									<li>|</li>
+									<li><a href="https://chili.hackerspace-bremen.de/projects">Projekte</a></li>
+									<li>|</li>
+									<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Regelm%C3%A4%C3%9Fige_Termine"> Veranstaltungen </a></li>
+									<li>|</li>
+									<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren"> Sponsoren </a></li>
+								</ul>
+							</td>
+							<td align=right><div id="impressum"><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Impressum">Impressum</font></a></div></td>
+						</tr>
+					</table>
+				</div>
+				<!-- linke Seitenleiste -->
+
+				<div id="sidebar-1">
+
+					<img src="logo.png" width=180></img>
+
+					<!--<a href="http://www.hackerspace-bremen.de" target=_blank><h1>Newsletter (bald)</h1></a>-->
+
+					<h1>Follow on</h1>
+					<li><a href="http://www.facebook.com/pages/Hackerspace-Bremen/217887601561428?ref=ts" target=_blank>Facebook</a></li>
+					<li><a href="https://plus.google.com/106849621647585475724" target=_blank>Google+</a></li>
+					<br><a href="HackerspaceBremen-Flyer.pdf" target=_blank><img src=flyer.jpg width=80></img></br>Download Flyer (PDF)</a>
+					<br></br><a href="https://chili.hackerspace-bremen.de/attachments/download/5/Satzung.pdf" target=_blank>Download Satzung (PDF)</a>
+					<br></br><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Mitglied_werden">&rarr; Mitglied werden</a>
+
+				</div>
 				<!-- Hauptbereich -->
 				<div id="content">
 					<a href="http://chili.hackerspace-bremen.de/projects/web/wiki/Wiki"><img src="banner.png" border=0 width=470></img></a>
@@ -51,8 +90,62 @@
 
 					<p  style="text-align: right; margin: 0px; padding: 0px"><a href="http://chili.hackerspace-bremen.de/news"> &rarr; Alle Einträge</a></p>
 				</div>
-				<? include 'basicPhps/rightside.php'; ?>
-				<? include 'basicPhps/footer.php'; ?>
+				<!-- rechte Seitenleiste -->
+				<div id="sidebar-2">
+					<!-- oberer Kasten -->
+					<h1>OpenSpaceMelder!!!</h1>
+					<table height=67px>
+						<tr>
+							<td>
+								<h2>			
+									<?php
+										$jsonurl = "https://hackerspacehb.appspot.com/status?format=de&htmlEncoded=true";
+										$json = file_get_contents($jsonurl);
+										$json_output = json_decode($json,true);				
+										if($json_output['RESULT']['ST3'] === 'CLOSED'){
+											echo 'Der Space ist geschlossen';	
+										}elseif ($json_output['RESULT']['ST3'] === 'OPEN'){
+											echo 'Der Space ist geöffnet';
+										}
+									?>
+								</h2>
+								<h3>
+									<?php
+										echo $json_output['RESULT']['ST5'];	
+									?>
+								</h3>
+								<a href="https://play.google.com/store/apps/details?id=de.hackerspacebremen"><img alt="Get it on Google Play" src="./gplay.png" width=100 />
+								<a href="https://chrome.google.com/webstore/detail/hackerspace-bremen/apadeikhfnipflbiglhdcilnfocbikhc"><img alt="Get it in the Chrome Web Store" src="./chrome-ext.png" width=100 /></a></br>
+							</td>
+						</tr>
+					</table>
+
+					<!-- unterer Kasten -->
+					<h1>Termine | Veranstaltungen</h1>
+					<table>
+						<tr>
+							<td>
+								Montags, 19:00-21:00 <br>&rarr;<b>Open Space</b></br>
+								<br>Dienstags, ab 19:00 <br>&rarr;<b>Öffentlicher Themenabend</b></br>
+								<br>Mittwochs, ab 17:00 <br>&rarr;<b>Roboter bauen und programmieren</b></br>
+								<br>Mittwochs, 19:00-21:00 <br>&rarr;<b>eve(ning) of projects</b></br>
+								<br>Donnerstags, 19:00-21:00 <br>&rarr;<b>SDR-Abend</b></br>
+								<br>Freitags, 19:00-21:00 <br>&rarr;<b>Rapid Prototyping</b></br>
+							</td>
+						</tr>
+					</table>
+					<p  style="text-align: right; margin: 0px; padding: 0px"><a href="https://chili.hackerspace-bremen.de/projects/veranstaltungen/wiki/Wiki"> &rarr; Details und weitere Termine</a></p>
+				</div>
+
+				<?php
+				// Anzeige des letzten PHP-Fehlers
+				// print_r(error_get_last());
+				?>
+
+				<!-- Fusszeile -->
+				<div id="foot">
+					Hackerspace Bremen e.V. | Bornstr. 14-15 | 28195 Bremen
+				</div>
 			</div>
 		</div>
 	</body>

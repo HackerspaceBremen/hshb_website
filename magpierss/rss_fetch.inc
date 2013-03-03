@@ -339,7 +339,7 @@ function init () {
     }
     
     if ( !defined('MAGPIE_CACHE_ON') ) {
-        define('MAGPIE_CACHE_ON', false);
+        define('MAGPIE_CACHE_ON', true);
     }
 
     if ( !defined('MAGPIE_CACHE_DIR') ) {

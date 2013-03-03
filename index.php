@@ -17,10 +17,8 @@
 		<div id="body">
 			<div id="accessibility"></div>
 			<div id="container">
-				<?php
-					include 'basicPhps/header.php';
-					include 'basicPhps/leftside.php';
-				?>
+				<? include 'basicPhps/header.php'; ?>
+				<? include 'basicPhps/leftside.php'; ?>
 				<!-- Hauptbereich -->
 				<div id="content">
 					<a href="http://chili.hackerspace-bremen.de/projects/web/wiki/Wiki"><img src="banner.png" border=0 width=470></img></a>
@@ -53,10 +51,8 @@
 
 					<p  style="text-align: right; margin: 0px; padding: 0px"><a href="http://chili.hackerspace-bremen.de/news"> &rarr; Alle Einträge</a></p>
 				</div>
-				<?php
-					include 'basicPhps/rightside.php';
-					include 'basicPhps/footer.php';
-				?>
+				<? include 'basicPhps/rightside.php'; ?>
+				<? include 'basicPhps/footer.php'; ?>
 			</div>
 		</div>
 	</body>

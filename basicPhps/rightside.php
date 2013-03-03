@@ -1,7 +1,7 @@
 ﻿<!-- rechte Seitenleiste -->
 <div id="sidebar-2">
 	<!-- oberer Kasten -->
-	<h1>OpenSpaceMelder</h1>
+	<h1>OpenSpaceMelder!!!</h1>
 	<table height=67px>
 		<tr>
 			<td>

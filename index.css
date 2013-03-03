@@ -170,6 +170,14 @@ h3 a {
 	border-top: 3px #000000 solid;
 }
 
+.headerTable{
+	width:960px; 
+	height:27px; 
+	border:0px; 
+	border-spacing:px; 
+	padding:0px; 
+}
+
 
 
 #sidebar-1 {
@@ -205,6 +213,10 @@ h3 a {
 	border-collapse: separate;
 	margin: 0px 0px 0px 0px;
 	padding: 0px;
+}
+
+.openSpaceTable{
+	height:67px;
 }
 
 #sidebar-2 tr {

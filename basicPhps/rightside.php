@@ -1,8 +1,8 @@
 ﻿<!-- rechte Seitenleiste -->
 <div id="sidebar-2">
 	<!-- oberer Kasten -->
-	<h1>OpenSpaceMelder!!!</h1>
-	<table height=67px>
+	<h1>OpenSpaceMelder</h1>
+	<table class="openSpaceTable">
 		<tr>
 			<td>
 				<h2>			
@@ -22,8 +22,8 @@
 						echo $json_output['RESULT']['ST5'];	
 					?>
 				</h3>
-				<a href="https://play.google.com/store/apps/details?id=de.hackerspacebremen"><img alt="Get it on Google Play" src="./gplay.png" width=100 />
-				<a href="https://chrome.google.com/webstore/detail/hackerspace-bremen/apadeikhfnipflbiglhdcilnfocbikhc"><img alt="Get it in the Chrome Web Store" src="./chrome-ext.png" width=100 /></a></br>
+				<a href="https://play.google.com/store/apps/details?id=de.hackerspacebremen"><img alt="Get it on Google Play" src="./gplay.png" width=100></a>
+				<a href="https://chrome.google.com/webstore/detail/hackerspace-bremen/apadeikhfnipflbiglhdcilnfocbikhc"><img alt="Get it in the Chrome Web Store" src="./chrome-ext.png" width=100 /></a>
 			</td>
 		</tr>
 	</table>
@@ -33,12 +33,12 @@
 	<table>
 		<tr>
 			<td>
-				Montags, 19:00-21:00 <br>&rarr;<b>Open Space</b></br>
-				<br>Dienstags, ab 19:00 <br>&rarr;<b>Öffentlicher Themenabend</b></br>
-				<br>Mittwochs, ab 17:00 <br>&rarr;<b>Roboter bauen und programmieren</b></br>
-				<br>Mittwochs, 19:00-21:00 <br>&rarr;<b>eve(ning) of projects</b></br>
-				<br>Donnerstags, 19:00-21:00 <br>&rarr;<b>SDR-Abend</b></br>
-				<br>Freitags, 19:00-21:00 <br>&rarr;<b>Rapid Prototyping</b></br>
+				Montags, 19:00-21:00 <br>&rarr;<b>Open Space</b>
+				<br /><br />Dienstags, ab 19:00 <br>&rarr;<b>Öffentlicher Themenabend</b>
+				<br /><br />Mittwochs, ab 17:00 <br>&rarr;<b>Roboter bauen und programmieren</b>
+				<br /><br />Mittwochs, 19:00-21:00 <br>&rarr;<b>eve(ning) of projects</b>
+				<br /><br />Donnerstags, 19:00-21:00 <br>&rarr;<b>SDR-Abend</b>
+				<br /><br />Freitags, 19:00-21:00 <br>&rarr;<b>Rapid Prototyping</b>
 			</td>
 		</tr>
 	</table>

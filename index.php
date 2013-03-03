@@ -11,7 +11,7 @@
 		<meta name="author" content="Daniel Wendt-Fröhlich">
 		<link rel="stylesheet" type="text/css" href="index.css">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
-		<style type="text/css"/>
+		<style type="text/css"></style>
 	</head>
 	<body>
 		<div id="body">
@@ -38,7 +38,7 @@
 									<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren"> Sponsoren </a></li>
 								</ul>
 							</td>
-							<td align=right><div id="impressum"><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Impressum">Impressum</font></a></div></td>
+							<td align=right><div id="impressum"><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Impressum">Impressum</a></div></td>
 						</tr>
 					</table>
 				</div>
@@ -51,9 +51,11 @@
 					<!--<a href="http://www.hackerspace-bremen.de" target=_blank><h1>Newsletter (bald)</h1></a>-->
 
 					<h1>Follow on</h1>
-					<li><a href="http://www.facebook.com/pages/Hackerspace-Bremen/217887601561428?ref=ts" target=_blank>Facebook</a></li>
-					<li><a href="https://plus.google.com/106849621647585475724" target=_blank>Google+</a></li>
-					<br><a href="HackerspaceBremen-Flyer.pdf" target=_blank><img src=flyer.jpg width=80></img></br>Download Flyer (PDF)</a>
+					<ul>
+						<li><a href="http://www.facebook.com/pages/Hackerspace-Bremen/217887601561428?ref=ts" target=_blank>Facebook</a></li>
+						<li><a href="https://plus.google.com/106849621647585475724" target=_blank>Google+</a></li>
+					</ul>
+					<br><a href="HackerspaceBremen-Flyer.pdf" target=_blank><img src=flyer.jpg width=80></img>Download Flyer (PDF)</a>
 					<br></br><a href="https://chili.hackerspace-bremen.de/attachments/download/5/Satzung.pdf" target=_blank>Download Satzung (PDF)</a>
 					<br></br><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Mitglied_werden">&rarr; Mitglied werden</a>
 
@@ -114,8 +116,8 @@
 										echo $json_output['RESULT']['ST5'];	
 									?>
 								</h3>
-								<a href="https://play.google.com/store/apps/details?id=de.hackerspacebremen"><img alt="Get it on Google Play" src="./gplay.png" width=100 />
-								<a href="https://chrome.google.com/webstore/detail/hackerspace-bremen/apadeikhfnipflbiglhdcilnfocbikhc"><img alt="Get it in the Chrome Web Store" src="./chrome-ext.png" width=100 /></a></br>
+								<a href="https://play.google.com/store/apps/details?id=de.hackerspacebremen"><img alt="Get it on Google Play" src="./gplay.png" width=100></a>
+								<a href="https://chrome.google.com/webstore/detail/hackerspace-bremen/apadeikhfnipflbiglhdcilnfocbikhc"><img alt="Get it in the Chrome Web Store" src="./chrome-ext.png" width=100 /></a>
 							</td>
 						</tr>
 					</table>
@@ -125,12 +127,12 @@
 					<table>
 						<tr>
 							<td>
-								Montags, 19:00-21:00 <br>&rarr;<b>Open Space</b></br>
-								<br>Dienstags, ab 19:00 <br>&rarr;<b>Öffentlicher Themenabend</b></br>
-								<br>Mittwochs, ab 17:00 <br>&rarr;<b>Roboter bauen und programmieren</b></br>
-								<br>Mittwochs, 19:00-21:00 <br>&rarr;<b>eve(ning) of projects</b></br>
-								<br>Donnerstags, 19:00-21:00 <br>&rarr;<b>SDR-Abend</b></br>
-								<br>Freitags, 19:00-21:00 <br>&rarr;<b>Rapid Prototyping</b></br>
+								Montags, 19:00-21:00 <br>&rarr;<b>Open Space</b>
+								<br>Dienstags, ab 19:00 <br>&rarr;<b>Öffentlicher Themenabend</b>
+								<br>Mittwochs, ab 17:00 <br>&rarr;<b>Roboter bauen und programmieren</b>
+								<br>Mittwochs, 19:00-21:00 <br>&rarr;<b>eve(ning) of projects</b>
+								<br>Donnerstags, 19:00-21:00 <br>&rarr;<b>SDR-Abend</b>
+								<br>Freitags, 19:00-21:00 <br>&rarr;<b>Rapid Prototyping</b>
 							</td>
 						</tr>
 					</table>

@@ -26,6 +26,7 @@
 					<!-- Atom-Feed-Reader-->  
 					<?php
 						define('MAGPIE_DIR', 'magpierss/');
+						define('MAGPIE_CACHE_AGE', 600);
 						require_once(MAGPIE_DIR . 'rss_fetch.inc');
 						$url = 'https://chili.hackerspace-bremen.de/news.atom?key=805614cad417775206a812eee70fbec4fc596ffb';
 						$rss = fetch_rss( $url );

@@ -28,7 +28,7 @@
 						define('MAGPIE_DIR', 'magpierss/');
 						define('MAGPIE_CACHE_AGE', 600);
 						require_once(MAGPIE_DIR . 'rss_fetch.inc');
-						$url = 'https://chili.hackerspace-bremen.de/news.atom?key=805614cad417775206a812eee70fbec4fc596ffb';
+						$url = 'https://chili.hackerspace-bremen.de/news.atom';
 						$rss = fetch_rss( $url );
 						$rss->items = array_slice($rss->items, 0, 10); //begrenzt auf 10 Beiträge
 						// print_r($rss); // Gibt komplettes Array aus.

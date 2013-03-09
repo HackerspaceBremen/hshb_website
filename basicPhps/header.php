@@ -14,7 +14,7 @@
 					<li>|</li>
 					<li><a href="https://chili.hackerspace-bremen.de/projects">Projekte</a></li>
 					<li>|</li>
-					<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Regelm%C3%A4%C3%9Fige_Termine"> Veranstaltungen </a></li>
+					<li><a href="https://chili.hackerspace-bremen.de/projects/veranstaltungen/wiki"> Veranstaltungen </a></li>
 					<li>|</li>
 					<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren"> Sponsoren </a></li>
 				</ul>

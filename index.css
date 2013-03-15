@@ -304,5 +304,6 @@ h3 a {
 }
 
 
-
-
+.wiki-anchor{
+	visibility:gone;
+}

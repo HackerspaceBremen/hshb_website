@@ -23,16 +23,16 @@
 				<div id="content">
 					<!-- Sponsors-->  
 					<?php
-						$c = curl_init('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
+						//$c = curl_init('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
 						// TODO maybe some more options
-						$html = curl_exec($c);
-						if (curl_error($c))
-							die(curl_error($c));
+						//$html = curl_exec($c);
+						//if (curl_error($c))
+						//	die(curl_error($c));
 
 						// Get the status code
-						$status = curl_getinfo($c, CURLINFO_HTTP_CODE);
+						//$status = curl_getinfo($c, CURLINFO_HTTP_CODE);
 						
-						if($status==200){
+						//if($status==200){
 							echo("<p><b>test</b></p>");
 							//$DOM = new DOMDocument;
 							//$DOM->loadHTML($html);
@@ -42,10 +42,10 @@
 							//foreach( $xpath->query('//div[contains(attribute::class, "wiki")]') as $e ) {
 							//	echo $e->nodeValue, "<br />\n<b>test</b>";
 							//}
-						} else {
+						//} else {
 							// TODO change this for an error include
-							echo("<p><b>Diese Seite kann vorübergehend nicht dargestellt werden!</b></p>");
-						}
+						//	echo("<p><b>Diese Seite kann vorübergehend nicht dargestellt werden!</b></p>");
+						//}
 						
 						curl_close($c);
 					?>

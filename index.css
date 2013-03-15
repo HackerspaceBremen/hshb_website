@@ -304,3 +304,7 @@ h3 a {
 .wiki-anchor{
 	visibility:hidden;
 }
+
+strong{
+	vertical-align: baseline;
+}

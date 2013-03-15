@@ -23,7 +23,7 @@
 				<div id="content">
 					<!-- Sponsors-->  
 					<?php
-						//$c = curl_init('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
+						$c = curl_init('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
 						// TODO maybe some more options
 						//$html = curl_exec($c);
 						//if (curl_error($c))
@@ -49,7 +49,6 @@
 						
 						curl_close($c);
 					?>
-					<p  style="text-align: right; margin: 0px; padding: 0px"><a href="http://chili.hackerspace-bremen.de/news"> &rarr; Alle Einträge</a></p>
 				</div>
 				<? include ("basicPhps/rightside.php"); ?>
 				<? include ("basicPhps/footer.php"); ?>

@@ -6,7 +6,7 @@ This repository holds the source code for the website of Hackerspace Bremen e.V.
 Developed By
 ============
 
-* Daniel Wendt-Fr�hlich
+* Hackerspace Bremen e.V.
 
 License
 =======

@@ -26,6 +26,7 @@
 						$c = curl_init('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
 						// TODO maybe some more options
 						$chilihtml = curl_exec($c);
+						curl_setopt(CURLOPT_RETURNTRANSFER, true);
 						//if (curl_error($c))
 						//	die(curl_error($c));
 

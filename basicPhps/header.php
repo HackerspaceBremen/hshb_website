@@ -1,7 +1,7 @@
 ﻿<!--- Kopfzeile -->
 
 <div id="head">
-	<table class="headerTable" background="#top.png">
+	<table class="headerTable">
 		<tr>
 			<td width=200></td>
 			<td align=left>
@@ -16,7 +16,7 @@
 					<li>|</li>
 					<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Regelm%C3%A4%C3%9Fige_Termine"> Veranstaltungen </a></li>
 					<li>|</li>
-					<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren"> Sponsoren </a></li>
+					<li><a href="sponsors.php"> Sponsoren </a></li>
 				</ul>
 			</td>
 			<td align=right><div id="impressum"><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Impressum">Impressum</a></div></td>

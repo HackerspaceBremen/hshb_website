@@ -38,9 +38,9 @@
 
 							//get all content
 							$xpath = new DOMXPath($DOM);
-							foreach( $xpath->query('//div[contains(attribute::class, "wiki")]') as $e ) {
-								echo $e->nodeValue, "<br />\n<b>test</b>";
-							}
+							//foreach( $xpath->query('//div[contains(attribute::class, "wiki")]') as $e ) {
+							//	echo $e->nodeValue, "<br />\n<b>test</b>";
+							//}
 						} else {
 							// TODO change this for an error include
 							echo("<p><b>Diese Seite kann vorübergehend nicht dargestellt werden!</b></p>");

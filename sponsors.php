@@ -33,7 +33,7 @@
 						$status = curl_getinfo($c, CURLINFO_HTTP_CODE);
 						
 						if($status==200){
-							echo("<p><b>test</b></p>")
+							echo("<p><b>test</b></p>");
 							//$DOM = new DOMDocument;
 							//$DOM->loadHTML($html);
 

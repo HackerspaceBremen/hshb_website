@@ -6,15 +6,15 @@
 			<td width=200></td>
 			<td align=left>
 				<ul>
-					<li><a href="http://www.hackerspace-bremen.de">Startseite</a></li>
+					<li><a href="/">Startseite</a></li>
 					<li>|</li>
-					<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/%C3%9Cber_uns">Über uns</a></li>
+					<li><a href="about.php">Über uns</a></li>
 					<li>|</li>
-					<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Location">Location</a></li>
+					<li><a href="location.php">Location</a></li>
 					<li>|</li>
 					<li><a href="https://chili.hackerspace-bremen.de/projects">Projekte</a></li>
 					<li>|</li>
-					<li><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Regelm%C3%A4%C3%9Fige_Termine"> Veranstaltungen </a></li>
+					<li><a href="events.php"> Veranstaltungen </a></li>
 					<li>|</li>
 					<li><a href="sponsors.php"> Sponsoren </a></li>
 				</ul>

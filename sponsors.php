@@ -23,26 +23,17 @@
 				<div id="content">
 					<!-- Sponsors-->  
 					<?php
-						//$c = curl_init('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
-						//curl_setopt(CURLOPT_RETURNTRANSFER, true);
-						//$chilihtml = curl_exec($c);
-						$chilihtml = file_get_contents('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
-						echo($chilihtml);
-						//if (curl_error($c))
-						//	die(curl_error($c));
-
-						// Get the status code
-						//$status = curl_getinfo($c, CURLINFO_HTTP_CODE);
-						
-						//if($status==200){
-							$DOM = new DOMDocument;
-							$DOM->loadHTML($chilihtml);
-
-							//get all content
-							$xpath = new DOMXPath($DOM);
-							foreach( $xpath->query('//div[contains(attribute::class, "wiki")]') as $e ) {
-								//echo $e->textContent, "<br />";
-							}
+						$dom = new DOMDocument();
+						$dom->loadHTMLFile('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
+						$xpath = new DOMXPath($dom);
+						$elements = $xpath->query('//div[contains(attribute::class, "wiki")]'):
+						//get all content
+						foreach( $elements as $e ) {
+							$newdoc = new DOMDocument();
+							$cloned = $element->cloneNode(TRUE);
+							$newdoc->appendChild($newdoc->importNode($cloned,TRUE));
+							echo $newdoc->saveHTML();
+						}
 						//} else {
 							// TODO change this for an error include
 						//	echo("<p><b>Diese Seite kann vorübergehend nicht dargestellt werden!</b></p>");

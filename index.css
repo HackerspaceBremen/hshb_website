@@ -305,6 +305,6 @@ h3 a {
 	visibility:hidden;
 }
 
-strong{
+strong, p{
 	vertical-align: baseline;
 }

@@ -26,7 +26,7 @@
 						$dom = new DOMDocument();
 						$dom->loadHTMLFile('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
 						$xpath = new DOMXPath($dom);
-						$elements = $xpath->query('//div[contains(attribute::class, "wiki")]'):
+						$elements = $xpath->query('//div[contains(attribute::class, "wiki")]');
 						//get all content
 						foreach( $elements as $e ) {
 							$newdoc = new DOMDocument();

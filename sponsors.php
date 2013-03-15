@@ -21,7 +21,6 @@
 				<? include ("basicPhps/leftside.php"); ?>
 				<!-- Hauptbereich -->
 				<div id="content">
-					<h1>Aktuell</h1>
 					<!-- Sponsors-->  
 					<?php
 						$c = curl_init('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
@@ -40,7 +39,7 @@
 							//get all content
 							$xpath = new DOMXPath($DOM);
 							foreach( $xpath->query('//div[contains(attribute::class, "wiki")]') as $e ) {
-								echo $e->nodeValue, "<br />\n";
+								echo $e->nodeValue, "<br />\n<b>test</b>";
 							}
 						} else {
 							// TODO change this for an error include

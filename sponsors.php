@@ -27,6 +27,7 @@
 						//curl_setopt(CURLOPT_RETURNTRANSFER, true);
 						//$chilihtml = curl_exec($c);
 						$chilihtml = file_get_contents('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
+						echo($chilihtml);
 						//if (curl_error($c))
 						//	die(curl_error($c));
 
@@ -40,7 +41,7 @@
 							//get all content
 							$xpath = new DOMXPath($DOM);
 							foreach( $xpath->query('//div[contains(attribute::class, "wiki")]') as $e ) {
-								echo $e->textContent, "<br />";
+								//echo $e->textContent, "<br />";
 							}
 						//} else {
 							// TODO change this for an error include

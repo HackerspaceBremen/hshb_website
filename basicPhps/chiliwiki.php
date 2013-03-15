@@ -12,6 +12,6 @@
 		$newdoc = new DOMDocument();
 		$cloned = $element->cloneNode(TRUE);
 		$newdoc->appendChild($newdoc->importNode($cloned,TRUE));
-		echo $newdoc->saveHTML();
+		$newdocString = str_replace('/attachments/download/','https://chili.hackerspace-bremen.de/attachments/download/',$newdoc->saveHTML());
 	}
 ?>

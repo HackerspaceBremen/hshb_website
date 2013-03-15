@@ -23,7 +23,7 @@
 				<div id="content">
 					<!-- Sponsors-->  
 					<?php
-						$chiliurl = 'https://chili.hackerspace-bremen.de/projects/veranstaltungen/wiki/Wiki';
+						$chiliurl = 'https://chili.hackerspace-bremen.de/projects/web/wiki/Impressum';
 					?>
 					<? include ("basicPhps/chiliwiki.php"); ?>
 				</div>

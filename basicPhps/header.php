@@ -10,7 +10,7 @@
 					<li>|</li>
 					<li><a href="about.php">Über uns</a></li>
 					<li>|</li>
-					<li><a href="location.php">Location</a></li>
+					<li><a href="locations.php">Location</a></li>
 					<li>|</li>
 					<li><a href="https://chili.hackerspace-bremen.de/projects">Projekte</a></li>
 					<li>|</li>

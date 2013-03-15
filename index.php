@@ -21,7 +21,7 @@
 				<? include ("basicPhps/leftside.php"); ?>
 				<!-- Hauptbereich -->
 				<div id="content">
-					<a href="http://chili.hackerspace-bremen.de/projects/web/wiki/Wiki"><img src="banner.png" border=0 width=470></img></a>
+					<a href="be_a_member.php"><img src="banner.png" border=0 width=470></img></a>
 					<h1>Aktuell</h1>
 					<!-- Atom-Feed-Reader-->  
 					<?php

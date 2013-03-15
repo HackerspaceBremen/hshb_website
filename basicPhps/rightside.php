@@ -42,7 +42,7 @@
 			</td>
 		</tr>
 	</table>
-	<p  style="text-align: right; margin: 0px; padding: 0px"><a href="https://chili.hackerspace-bremen.de/projects/veranstaltungen/wiki/Wiki"> &rarr; Details und weitere Termine</a></p>
+	<p  style="text-align: right; margin: 0px; padding: 0px"><a href="events.php"> &rarr; Details und weitere Termine</a></p>
 </div>
 
 <?php

@@ -23,7 +23,8 @@
 				<div id="content">
 					<!-- Sponsors-->  
 					<?php
-						$dom = new DOMDocument();
+						$dom = new DOMDocument('1.0','UTF-8');
+						$dom->encoding = 'UTF-8';
 						$dom->loadHTMLFile('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
 						$xpath = new DOMXPath($dom);
 						$elements = $xpath->query('//div[contains(attribute::class, "wiki")]');

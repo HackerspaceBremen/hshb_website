@@ -40,7 +40,7 @@
 							//get all content
 							$xpath = new DOMXPath($DOM);
 							foreach( $xpath->query('//div[contains(attribute::class, "wiki")]') as $e ) {
-								echo $e, "<br />";
+								echo $e->textContent, "<br />";
 							}
 						//} else {
 							// TODO change this for an error include

@@ -26,9 +26,9 @@
 						header("Content-Type: text/html; charset=utf-8"); 
 						$dom = new DOMDocument('1.0','UTF-8');
 						$dom->encoding = 'UTF-8';
-						//$profile->file_get_contents('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
-						//$dom->loadHTML(mb_convert_encoding($profile, 'HTML-ENTITIES', 'UTF-8'));
-						$dom->loadHTMLFile('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
+						$profile->file_get_contents('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
+						$dom->loadHTML(mb_convert_encoding($profile, 'HTML-ENTITIES', 'UTF-8'));
+						//$dom->loadHTMLFile('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
 						$xpath = new DOMXPath($dom);
 						$elements = $xpath->query('//div[contains(attribute::class, "wiki")]');
 						//get all content
@@ -38,8 +38,6 @@
 							$newdoc->appendChild($newdoc->importNode($cloned,TRUE));
 							echo $newdoc->saveHTML();
 						}
-						
-						curl_close($c);
 					?>
 				</div>
 				<? include ("basicPhps/rightside.php"); ?>

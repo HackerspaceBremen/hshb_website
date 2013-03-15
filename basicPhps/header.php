@@ -19,7 +19,7 @@
 					<li><a href="sponsors.php"> Sponsoren </a></li>
 				</ul>
 			</td>
-			<td align=right><div id="impressum"><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Impressum">Impressum</a></div></td>
+			<td align=right><div id="impressum"><a href="impressum.php">Impressum</a></div></td>
 		</tr>
 	</table>
 </div>

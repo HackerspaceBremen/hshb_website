@@ -15,6 +15,6 @@
 	<br />
 	<br /><a href="https://chili.hackerspace-bremen.de/attachments/download/5/Satzung.pdf" target=_blank>Download Satzung (PDF)</a>
 	<br />
-	<br /><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Mitglied_werden">&rarr; Mitglied werden</a>
+	<br /><a href="be_a_member.php">&rarr; Mitglied werden</a>
 
 </div>

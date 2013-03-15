@@ -42,9 +42,9 @@
 							foreach( $xpath->query('//div[contains(attribute::class, "wiki")]') as $e ) {
 								echo $e->nodeValue, "<br />\n";
 							}
-						}else{
+						} else {
 							// TODO change this for an error include
-							echo("<p><b>Diese Seite kann vorübergehend nicht dargestellt werden!</b></p>")
+							echo("<p><b>Diese Seite kann vorübergehend nicht dargestellt werden!</b></p>");
 						}
 						
 						curl_close($c);

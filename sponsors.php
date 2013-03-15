@@ -26,7 +26,7 @@
 						//$c = curl_init('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
 						//curl_setopt(CURLOPT_RETURNTRANSFER, true);
 						//$chilihtml = curl_exec($c);
-						$chilihtml = file_get_html('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
+						$chilihtml = file_get_contents('https://chili.hackerspace-bremen.de/projects/web/wiki/Sponsoren');
 						//if (curl_error($c))
 						//	die(curl_error($c));
 

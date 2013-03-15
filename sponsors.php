@@ -33,11 +33,12 @@
 						$status = curl_getinfo($c, CURLINFO_HTTP_CODE);
 						
 						if($status==200){
-							$DOM = new DOMDocument;
-							$DOM->loadHTML($html);
+							echo("<p><b>test</b></p>")
+							//$DOM = new DOMDocument;
+							//$DOM->loadHTML($html);
 
 							//get all content
-							$xpath = new DOMXPath($DOM);
+							//$xpath = new DOMXPath($DOM);
 							//foreach( $xpath->query('//div[contains(attribute::class, "wiki")]') as $e ) {
 							//	echo $e->nodeValue, "<br />\n<b>test</b>";
 							//}

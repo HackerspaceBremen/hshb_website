@@ -28,7 +28,7 @@
 						$xpath = new DOMXPath($dom);
 						$elements = $xpath->query('//div[contains(attribute::class, "wiki")]');
 						//get all content
-						foreach( $elements as $e ) {
+						foreach( $elements as $element ) {
 							$newdoc = new DOMDocument();
 							$cloned = $element->cloneNode(TRUE);
 							$newdoc->appendChild($newdoc->importNode($cloned,TRUE));

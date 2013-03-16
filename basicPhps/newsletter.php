@@ -8,7 +8,7 @@
 				<div class="required">E-Mail</div>
 			</td>
 			<td class="attributeinput">
-				<input type=text name=email value="" size="20">
+				<input class="emailinput" type=text name=email value="" size="20">
 				<script language="Javascript" type="text/javascript">addFieldToCheck("email","E-Mail");</script>
 			</td>
 		</tr>
@@ -17,7 +17,7 @@
 				<div class="required">E-Mail best&auml;tigen</div>
 			</td>
 			<td class="attributeinput">
-				<input type=text name=emailconfirm value="" size="20">
+				<input class="emailinput" type=text name=emailconfirm value="" size="20">
 				<script language="Javascript" type="text/javascript">addFieldToCheck("emailconfirm","E-Mail best&auml;tigen");</script>
 			</td>
 		</tr>

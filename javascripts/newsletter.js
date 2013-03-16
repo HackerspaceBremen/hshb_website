@@ -45,7 +45,8 @@ function addGroupToCheck(value,name) {
 
 function compareEmail()
 {
-  return (document.subscribeform.elements["email"].value == document.subscribeform.elements["emailconfirm"].value);
+  //return (document.subscribeform.elements["email"].value == document.subscribeform.elements["emailconfirm"].value);
+  return true;
 }
 function checkGroup(name,value) {
   option = -1;

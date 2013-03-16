@@ -4,6 +4,7 @@
 
 	<img src="logo.png"></img>
 
+	<h1>Folge uns auf: </h1>
 	<!--<a href="http://www.hackerspace-bremen.de" target=_blank><h1>Newsletter (bald)</h1></a>-->
 	<form method=post action="http://newsletter.hackerspace-bremen.de/lists/?p=subscribe" name="subscribeform" target="windowName" onsubmit="window.open('', this.target,'dialog,modal,scrollbars=no,resizable=no,width=550,height=300,left=0,top=0');">
 	
@@ -14,7 +15,7 @@
 					<div class="required">E-Mail</div>
 				</td>
 				<td class="attributeinput">
-					<input type=text name=email value="" size="40">
+					<input type=text name=email value="" size="20">
 					<script language="Javascript" type="text/javascript">addFieldToCheck("email","E-Mail");</script>
 				</td>
 			</tr>
@@ -23,7 +24,7 @@
 					<div class="required">E-Mail best&auml;tigen</div>
 				</td>
 				<td class="attributeinput">
-					<input type=text name=emailconfirm value="" size="40">
+					<input type=text name=emailconfirm value="" size="20">
 					<script language="Javascript" type="text/javascript">addFieldToCheck("emailconfirm","E-Mail best&auml;tigen");</script>
 				</td>
 			</tr>

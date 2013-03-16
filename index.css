@@ -182,7 +182,7 @@ h3 a {
         width: 180px;
 	\width: 180px;
 	w\idth: 180px;
-	padding: 10px;
+	padding: 0px;
 	padding-top: 0px;
 	padding-right: 0px;
 	margin-top: 20px;
@@ -198,7 +198,6 @@ h3 a {
 	w\idth: 270px;
 	padding: 0px;
 	padding-top: 0px;
-	padding-right: 10px;
 	margin-top: 0px;
 	float: right;
     text-align: left;

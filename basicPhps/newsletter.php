@@ -12,7 +12,7 @@
 				<script language="Javascript" type="text/javascript">addFieldToCheck("email","E-Mail");</script>
 			</td>
 		</tr>
-		<tr>
+		<!--<tr>
 			<td>
 				<div class="required">E-Mail best&auml;tigen</div>
 			</td>
@@ -20,7 +20,7 @@
 				<input type=text name=emailconfirm value="" size="20">
 				<script language="Javascript" type="text/javascript">addFieldToCheck("emailconfirm","E-Mail best&auml;tigen");</script>
 			</td>
-		</tr>
+		</tr>-->
 		<tr>
 			<td colspan=2>
 				<span class="attributename">Bevorzugtes Format f&uuml;r E-Mails:</span><br/>
@@ -39,6 +39,6 @@
 		<input type="text" name="VerificationCodeX" value="" size="20">
 	</div>
 	<p>
-		<input type=submit name="subscribe" value="Eintrage" onClick="return checkform();">
+		<input type=submit name="subscribe" value="Eintragen" onClick="return checkform();">
 	</p>
 </form>

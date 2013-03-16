@@ -309,3 +309,7 @@ h3 a {
 strong, p{
 	vertical-align: baseline;
 }
+
+.attributeinput{
+	width:125px;
+}

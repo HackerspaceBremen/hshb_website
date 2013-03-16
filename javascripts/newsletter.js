@@ -24,7 +24,7 @@ function checkform() {
   
   if(! compareEmail())
   {
-    alert("Die E-Mail Adressen stimmen nicht &uuml;berein");
+    alert(unescape("Die E-Mail Adressen stimmen nicht %FCberein"));
     return false;
   }
   return true;

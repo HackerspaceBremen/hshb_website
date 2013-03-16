@@ -2,7 +2,7 @@
 
 <div id="sidebar-1">
 
-	<img src="logo.png"></img>
+	<img src="images/logo.png"></img>
 
 	<h1>Folge uns auf: </h1>
 	<ul>

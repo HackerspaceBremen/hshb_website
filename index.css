@@ -151,13 +151,15 @@ h3 a {
 	margin: 10px auto;
 	margin-top: 0px;
 	padding: 0px;
-	width: 100%;
+	/*width: 100%;*/
+	width: 960px;
 	border: 0px #ffffff solid;
 	background-color: #ffffff;
 }
 
 #head {
-	width: 100%;
+	/*width: 100%;*/
+	width: 960px;
 	height: 27px;
     margin: 0px;
 	text-align: center;

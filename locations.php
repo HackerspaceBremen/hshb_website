@@ -12,6 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="index.css">
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<style type="text/css"></style>
+		<script src="javascripts/newsletter.js"></script>
 	</head>
 	<body>
 		<div id="body">

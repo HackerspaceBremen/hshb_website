@@ -13,7 +13,7 @@
 	
 	<? include ("newsletter.php"); ?>
 	
-	<br /><a href="HackerspaceBremen-Flyer.pdf" target=_blank><img src="flyer.jpg"></img><p style="margin-top:5px;">Download Flyer (PDF)</p></a>
+	<br /><a href="files/HackerspaceBremen-Flyer.pdf" target=_blank><img src="images/flyer.jpg"></img><p style="margin-top:5px;">Download Flyer (PDF)</p></a>
 	<br />
 	<br /><a href="https://chili.hackerspace-bremen.de/attachments/download/5/Satzung.pdf" target=_blank>Download Satzung (PDF)</a>
 	<br />

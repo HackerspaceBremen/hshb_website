@@ -22,8 +22,8 @@
 						echo $json_output['RESULT']['ST5'];	
 					?>
 				</h3>
-				<a href="https://play.google.com/store/apps/details?id=de.hackerspacebremen"><img alt="Get it on Google Play" src="./gplay.png" width=100></a>
-				<a href="https://chrome.google.com/webstore/detail/hackerspace-bremen/apadeikhfnipflbiglhdcilnfocbikhc"><img alt="Get it in the Chrome Web Store" src="./chrome-ext.png" width=100 /></a>
+				<a href="https://play.google.com/store/apps/details?id=de.hackerspacebremen"><img alt="Get it on Google Play" src="images/gplay.png" width=100></a>
+				<a href="https://chrome.google.com/webstore/detail/hackerspace-bremen/apadeikhfnipflbiglhdcilnfocbikhc"><img alt="Get it in the Chrome Web Store" src="images/chrome-ext.png" width=100 /></a>
 			</td>
 		</tr>
 	</table>

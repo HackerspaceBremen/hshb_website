@@ -2,17 +2,7 @@
 <html>
 	<head>
 		<title>Hackerspace Bremen e.V.</title>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta http-equiv="Content-Style-Type" content="text/css">
-		<meta name="description" content="Hackerspace Bremen, mack|hack|modify, Deine Hobbywerkstatt in Bremen">
-		<meta name="keywords" content="Hackerspace, Hobby, Werkstatt,
-		Bremen, entwerfen, programmieren, löten, bauen, Workshops, Vorträge, Kunst, Handwerk, Informatik, Elektronik, 3D-Druck,">
-		<meta name="copyright" content="Hackerspace Bremen e.V.">
-		<meta name="author" content="Daniel Wendt-Fröhlich">
-		<link rel="stylesheet" type="text/css" href="index.css">
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
-		<style type="text/css"></style>
-		<script src="javascripts/newsletter.js"></script>
+		<? include ("basicPhps/head.php"); ?>
 	</head>
 	<body>
 		<div id="body">
@@ -41,7 +31,7 @@
 							$updated = date('j.m.Y, H:i', strtotime($item['updated']));
 							$author = $item['author_name'];
 							
-							echo "<tr><td width=52><img src=icon.png></img></td><td>";
+							echo "<tr><td width=52><img src='images/icon.png'></img></td><td>";
 							echo "<a href=$link><h2>$title</h2></a>";
 							echo "<p>$content</p>";
 							echo "<p style='text-align:right;'><small>vom $updated , $author </small></p>";

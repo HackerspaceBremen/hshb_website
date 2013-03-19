@@ -7,14 +7,15 @@
 	<h1>Folge uns auf: </h1>
 	
 	<div class="snfollow">
-		<div class="g-plusone" data-href="https://plus.google.com/106849621647585475724"></div>
+		<!-- Place this tag where you want the +1 button to render. -->
+		<div class="g-plusone" data-size="medium" data-href="https://plus.google.com/106849621647585475724"></div>
 	</div>
 	<div class="snfollow">
 		<div class="fb-follow" data-href="https://www.facebook.com/pages/Hackerspace-Bremen/217887601561428" data-layout="button_count" data-show-faces="false" data-font="arial" data-width="180"></div>
 	</div>
 	<div class="snfollow">
-		<a href="https://twitter.com/hspacehb" class="twitter-follow-button" data-show-count="false" data-lang="de" data-size="large">@hspacehb folgen</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		<a href="https://twitter.com/hspacehb" class="twitter-follow-button" data-show-count="false" data-lang="de">@hspacehb folgen</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</div>
 	
 	<? include ("newsletter.php"); ?>

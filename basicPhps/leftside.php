@@ -8,6 +8,8 @@
 	
 	<div class="g-plusone" data-href="https://plus.google.com/106849621647585475724"></div>
 	<div class="fb-follow" data-href="https://www.facebook.com/pages/Hackerspace-Bremen/217887601561428" data-layout="button_count" data-show-faces="false" data-font="arial" data-width="60"></div>
+	<a href="https://twitter.com/hspacehb" class="twitter-follow-button" data-show-count="false" data-lang="de" data-size="large">@hspacehb folgen</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	
 	<? include ("newsletter.php"); ?>
 	

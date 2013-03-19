@@ -11,7 +11,7 @@
 		<div class="g-plusone" data-size="medium" data-href="https://plus.google.com/106849621647585475724"></div>
 	</div>
 	<div class="snfollow">
-		<div class="fb-follow" data-href="https://www.facebook.com/pages/Hackerspace-Bremen/217887601561428" data-layout="button_count" data-show-faces="false" data-font="arial" data-width="180"></div>
+		<div class="fb-follow" data-href="http://www.facebook.com/pages/Hackerspace-Bremen/217887601561428" data-layout="button_count" data-show-faces="false" data-font="arial" data-width="180"></div>
 	</div>
 	<div class="snfollow">
 		<a href="https://twitter.com/hspacehb" class="twitter-follow-button" data-show-count="false" data-lang="de">@hspacehb folgen</a>

@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<div id="body">
-			<div id="accessibility"></div>
+			<? include ("basicPhps/socialNetworkAndStuff.php"); ?>
 			<div id="container">
 				<? include ("basicPhps/header.php"); ?>
 				<? include ("basicPhps/leftside.php"); ?>

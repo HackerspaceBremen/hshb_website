@@ -8,3 +8,7 @@ Bremen, entwerfen, programmieren, löten, bauen, Workshops, Vorträge, Kunst, Ha
 <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
 <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 <script src="javascripts/newsletter.js"></script>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {lang: 'de'}
+</script>

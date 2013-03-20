@@ -21,7 +21,7 @@
 				<? include ("basicPhps/leftside.php"); ?>
 				<!-- Hauptbereich -->
 				<div id="content">
-					<h1>Trage dich in unsere Mailingliste ein: </h1>
+					<h1 id="mailinglist">Trage dich in unsere Mailingliste ein: </h1>
 					<p>
 						Auf unserer Mailingliste wird gefachsimpelt und diskutiert. Dort werden Veranstaltungen geplant und angekündigt. 
 						Die Mailingliste dient nicht nur Vereinsmitgliedern, sondern ist für jede_n offen, solange die Regeln eingehalten werden. 
@@ -70,7 +70,7 @@
 						</p>
 					</form>
 
-					<h1>Abboniere unseren Newsletter: </h1>
+					<h1 id="newsletter">Abboniere unseren Newsletter: </h1>
 					<p>
 						Über unseren Newsletter erhälst du alle drei Monate Informationen über Projekte, Veranstaltungen und den Verein selber.
 						Du möchtest nur ab und zu mal Informationen zu dem Verein erhalten? Dann ist der Newsletter genau richtig für dich! 

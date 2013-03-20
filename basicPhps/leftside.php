@@ -29,12 +29,10 @@
 	</div>
 	-->
 	<h1>Weiteres: </h1>
-	<div class="snfollow">
-		<a href="be_a_member.php">&rarr; Werde Mitglied</a>
-	</div>
-	<div class="snfollow">
-		<a href="http://www-test.hackerspace-bremen.de/newsletter_and_mailinglist.php">&rarr; Abonniere unseren Newsletter oder unsere Mailingliste</a> 
-	</div>
+	<a href="be_a_member.php">&rarr; Werde Mitglied</a>
+	<br/>
+	<a href="http://www-test.hackerspace-bremen.de/newsletter_and_mailinglist.php">&rarr; Newsletter</a> 
+	<a href="http://www-test.hackerspace-bremen.de/newsletter_and_mailinglist.php">&rarr; Mailingliste</a> 
 	
 	<br /><a href="files/HackerspaceBremen-Flyer.pdf" target=_blank><img src="images/flyer.jpg"></img><p style="margin-top:5px;">Download Flyer (PDF)</p></a>
 	<br />

@@ -98,9 +98,13 @@
 								</td>
 							</tr>
 							<tr>
-								<td colspan=2>
+								<td>
 									<span class="attributename">Bevorzugtes Format f&uuml;r E-Mails:</span><br/>
-									<span class="attributeinput"><input type=radio name="htmlemail" value="0"  /></span>
+								</td>
+								<td>
+									<span class="attributeinput">
+										<input type=radio name="htmlemail" value="0"/>
+									</span>
 									<span class="attributename">Text</span>
 									<span class="attributeinput">
 										<input type=radio name="htmlemail" value="1" checked="checked" />

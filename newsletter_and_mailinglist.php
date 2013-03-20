@@ -26,7 +26,7 @@
 						Auf unserer Mailingliste wird gefachsimpelt und diskutiert. Dort werden Veranstaltungen geplant und angekündigt. 
 						Die Mailingliste dient nicht nur Vereinsmitgliedern, sondern ist für jede_n offen, solange die Regeln eingehalten werden. 
 					</p>
-					<form action="http://lists.fiff.de/mailman/subscribe/liebhben" method="post" onsubmit="window.open('', this.target,'dialog,modal,scrollbars=no,resizable=no,width=550,height=300,left=0,top=0');">
+					<form action="http://lists.fiff.de/mailman/subscribe/liebhben" method="post">
 						<table border="0">
 							<tr>
 								<td>

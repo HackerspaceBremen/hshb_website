@@ -25,7 +25,7 @@
 								</td>
 								<td>
 									<!-- TODO: check input --> 
-									<input class="emailinput" type=text name=email value="" size="20">
+									<input name="email" type="text" size="22">
 								</td>
 							</tr>
 							<tr>
@@ -41,7 +41,7 @@
 									<div class="required">Passworteingabe:</div>
 								</td>
 								<td>
-									<input name="pw" type="password">
+									<input name="pw" type="password" size="20">
 								</td>
 							</tr>
 							<tr>
@@ -49,7 +49,7 @@
 								<div class="required">Erneute Passworteingabe:</div>
 								</td>
 								<td>
-									<input name="pw-conf" type="password">
+									<input name="pw-conf" type="password" size="20">
 									
 								</td>
 							</tr>

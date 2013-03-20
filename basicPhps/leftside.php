@@ -6,8 +6,18 @@
 
 	<h1>Folge uns auf: </h1>
 	
-	<div class="snfollow">
-		<!-- Place this tag where you want the +1 button to render. -->
+	<div>
+		<a href="https://www.facebook.com/pages/Hackerspace-Bremen/217887601561428" target=_blank>
+			<img src="images/facebook-logo-64x64.png"></img>
+		</a>
+		<a href="https://plus.google.com/106849621647585475724" target=_blank>
+			<img src="images/gplus-64.png"></img>
+		</a>
+		<a href="https://twitter.com/hspacehb" target=_blank>
+			<img src="images/twitter-bird-light-bgs.png"></img>
+		</a>
+	</div>
+	<!--<div class="snfollow">
 		<div class="g-plusone" data-size="medium" data-href="https://plus.google.com/106849621647585475724"></div>
 	</div>
 	<div class="snfollow">
@@ -17,6 +27,7 @@
 		<a href="https://twitter.com/hspacehb" class="twitter-follow-button" data-show-count="false" data-lang="de">@hspacehb folgen</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</div>
+	-->
 	
 	<div class="snfollow">
 		<a href="">Abonniere unseren Newsletter oder unsere Mailingliste</a> 

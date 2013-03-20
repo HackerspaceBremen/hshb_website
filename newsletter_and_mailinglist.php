@@ -18,15 +18,47 @@
 						Die Mailingliste dient nicht nur Vereinsmitgliedern, sondern ist für jede_n offen, solange die Regeln eingehalten werden. 
 					</p>
 					<form action="http://lists.fiff.de/mailman/subscribe/liebhben" method="post">
-						<dl class="impress">
-						<dt>E-Mail: <input name="email" type="text" size="22"></dt>
-						<dt>Name: <input name="fullname" type="text" size="22"></dt>
-						<dt>Passworteingabe: <input name="pw" type="password"></dt>
-						<dt>Erneute Passworteingabe: <input name="pw-conf" type="password"></dt>
-						<dt><input name="language" value="de" type="hidden"></dt>
-						<dt><input name="digest" value="0" type="hidden"></dt>
-						<dd><input name="email-button" value="Abonnieren" type="submit"></dd>
-						</dl>
+						<table border="0">
+							<tr>
+								<td>
+									<div class="required">E-Mail:</div>
+								</td>
+								<td>
+									<!-- TODO: check input --> 
+									<input class="emailinput" type=text name=email value="" size="20">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="required">Name:</div>
+								</td>
+								<td>
+									<input name="fullname" type="text" size="20">
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<div class="required">Passworteingabe:</div>
+								</td>
+								<td>
+									<input name="pw" type="password">
+								</td>
+							</tr>
+							<tr>
+								<td>
+								<div class="required">Erneute Passworteingabe:</div>
+								</td>
+								<td>
+									<input name="pw-conf" type="password">
+									
+								</td>
+							</tr>
+						</table>
+						<input name="language" value="de" type="hidden">
+						<input name="digest" value="0" type="hidden">
+						<p>
+							<input name="email-button" value="Abonnieren" type="submit">
+						</p>
 					</form>
 
 					<h1>Abboniere unseren Newsletter: </h1>
@@ -40,7 +72,7 @@
 						<table border=0>
 							<tr>
 								<td>
-									<div class="required">E-Mail</div>
+									<div class="required">E-Mail:</div>
 								</td>
 								<td class="attributeinput">
 									<input class="emailinput" type=text name=email value="" size="20">
@@ -49,7 +81,7 @@
 							</tr>
 							<tr>
 								<td>
-									<div class="required">E-Mail best&auml;tigen</div>
+									<div class="required">E-Mail best&auml;tigen:</div>
 								</td>
 								<td class="attributeinput">
 									<input class="emailinput" type=text name=emailconfirm value="" size="20">

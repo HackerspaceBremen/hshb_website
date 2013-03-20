@@ -28,15 +28,15 @@
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</div>
 	-->
-	
+	<h1>Weiteres: </h1>
 	<div class="snfollow">
-		<a href="http://www-test.hackerspace-bremen.de/newsletter_and_mailinglist.php">Abonniere unseren Newsletter oder unsere Mailingliste</a> 
+		<a href="be_a_member.php">&rarr; Werde Mitglied</a>
+	</div>
+	<div class="snfollow">
+		<a href="http://www-test.hackerspace-bremen.de/newsletter_and_mailinglist.php">&rarr; Abonniere unseren Newsletter oder unsere Mailingliste</a> 
 	</div>
 	
 	<br /><a href="files/HackerspaceBremen-Flyer.pdf" target=_blank><img src="images/flyer.jpg"></img><p style="margin-top:5px;">Download Flyer (PDF)</p></a>
 	<br />
 	<br /><a href="https://chili.hackerspace-bremen.de/attachments/download/5/Satzung.pdf" target=_blank>Download Satzung (PDF)</a>
-	<br />
-	<br /><a href="be_a_member.php">&rarr; Mitglied werden</a>
-
 </div>

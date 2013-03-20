@@ -30,7 +30,7 @@
 	-->
 	
 	<div class="snfollow">
-		<a href="">Abonniere unseren Newsletter oder unsere Mailingliste</a> 
+		<a href="http://www-test.hackerspace-bremen.de/newsletter_and_mailinglist.php">Abonniere unseren Newsletter oder unsere Mailingliste</a> 
 	</div>
 	
 	<br /><a href="files/HackerspaceBremen-Flyer.pdf" target=_blank><img src="images/flyer.jpg"></img><p style="margin-top:5px;">Download Flyer (PDF)</p></a>

@@ -31,8 +31,9 @@
 	<h1>Weiteres: </h1>
 	<a href="be_a_member.php">&rarr; Werde Mitglied</a>
 	<br/>
-	<a href="http://www-test.hackerspace-bremen.de/newsletter_and_mailinglist.php">&rarr; Newsletter</a> 
-	<a href="http://www-test.hackerspace-bremen.de/newsletter_and_mailinglist.php">&rarr; Mailingliste</a> 
+	<a href="http://www-test.hackerspace-bremen.de/newsletter_and_mailinglist.php#newsletter">&rarr; Newsletter</a> 
+	<br/>
+	<a href="http://www-test.hackerspace-bremen.de/newsletter_and_mailinglist.php#mailinglist">&rarr; Mailingliste</a> 
 	
 	<br /><a href="files/HackerspaceBremen-Flyer.pdf" target=_blank><img src="images/flyer.jpg"></img><p style="margin-top:5px;">Download Flyer (PDF)</p></a>
 	<br />

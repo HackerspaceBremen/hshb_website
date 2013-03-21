@@ -30,7 +30,7 @@
 						require_once(MAGPIE_DIR . 'rss_fetch.inc');
 						$url = 'https://chili.hackerspace-bremen.de/news.atom?key=805614cad417775206a812eee70fbec4fc596ffb';
 						$rss = fetch_rss( $url );
-						$rss->items = array_slice($rss->items, 0, 10); //begrenzt auf 10 Beiträge
+						$rss->items = array_slice($rss->items, 0, 6); //begrenzt auf 6 Beiträge
 						// print_r($rss); // Gibt komplettes Array aus.
 						echo "<table>";
 						foreach ($rss->items as $item) {
@@ -40,7 +40,7 @@
 							$updated = date('j.m.Y, H:i', strtotime($item['updated']));
 							$author = $item['author_name'];
 							
-							echo "<tr><td width=52><img src='images/icon.png'></img></td><td>";
+							//echo "<tr><td width=52><img src='images/icon.png'></img></td><td>";
 							echo "<a href=$link><h2>$title</h2></a>";
 							echo "<p>$content</p>";
 							echo "<p style='text-align:right;'><small>vom $updated , $author </small></p>";

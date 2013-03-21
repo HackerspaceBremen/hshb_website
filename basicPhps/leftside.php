@@ -17,25 +17,18 @@
 			<img class="snimage" src="images/twitter-bird-light-bgs.png"></img>
 		</a>
 	</div>
-	<!--<div class="snfollow">
-		<div class="g-plusone" data-size="medium" data-href="https://plus.google.com/106849621647585475724"></div>
-	</div>
-	<div class="snfollow">
-		<div class="fb-follow" data-href="http://www.facebook.com/pages/Hackerspace-Bremen/217887601561428" data-layout="button_count" data-show-faces="false" data-font="arial" data-width="180"></div>
-	</div>
-	<div class="snfollow">
-		<a href="https://twitter.com/hspacehb" class="twitter-follow-button" data-show-count="false" data-lang="de">@hspacehb folgen</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-	</div>
-	-->
-	<h1>Weiteres: </h1>
+	<br/>
+	<br/>
 	<a href="be_a_member.php">&rarr; Werde Mitglied</a>
 	<br/>
-	<a href="http://www-test.hackerspace-bremen.de/newsletter_and_mailinglist.php#newsletter">&rarr; Newsletter</a> 
 	<br/>
-	<a href="http://www-test.hackerspace-bremen.de/newsletter_and_mailinglist.php#mailinglist">&rarr; Mailingliste</a> 
-	
+	<a href="newsletter_and_mailinglist.php#newsletter">&rarr; Newsletter</a> 
+	<br/>
+	<br/>
+	<a href="newsletter_and_mailinglist.php#mailinglist">&rarr; Mailingliste</a> 
+	<br/>
+	<br/>
 	<br /><a href="files/HackerspaceBremen-Flyer.pdf" target=_blank><img src="images/flyer.jpg"></img><p style="margin-top:5px;">Download Flyer (PDF)</p></a>
 	<br />
-	<br /><a href="https://chili.hackerspace-bremen.de/attachments/download/5/Satzung.pdf" target=_blank>Download Satzung (PDF)</a>
+
 </div>

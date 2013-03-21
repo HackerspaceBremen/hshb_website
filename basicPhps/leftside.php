@@ -8,13 +8,13 @@
 	
 	<div>
 		<a href="https://www.facebook.com/pages/Hackerspace-Bremen/217887601561428" target=_blank>
-			<img src="images/facebook.png"></img>
+			<img class="snimage" src="images/facebook.png"></img>
 		</a>
 		<a href="https://plus.google.com/106849621647585475724" target=_blank>
-			<img src="images/googleplus.png"></img>
+			<img class="snimage" src="images/googleplus.png"></img>
 		</a>
 		<a href="https://twitter.com/hspacehb" target=_blank>
-			<img src="images/twitter.png"></img>
+			<img class="snimage" src="images/twitter.png"></img>
 		</a>
 	</div>
 	<br/>

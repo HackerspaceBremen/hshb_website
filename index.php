@@ -39,7 +39,7 @@
 							$content = $item['atom_content'];
 							$updated = date('j.m.Y, H:i', strtotime($item['updated']));
 							$author = $item['author_name'];
-							
+							echo "<tr><td>";
 							//echo "<tr><td width=52><img src='images/icon.png'></img></td><td>";
 							echo "<a href=$link><h2>$title</h2></a>";
 							echo "<p>$content</p>";

@@ -75,7 +75,7 @@
 						Über unseren Newsletter erhälst du alle drei Monate Informationen über Projekte, Veranstaltungen und den Verein selber.
 						Du möchtest nur ab und zu mal Informationen zu dem Verein erhalten? Dann ist der Newsletter genau richtig für dich! 
 					</p>
-					<form method=post action="http://newsletter.hackerspace-bremen.de/lists/?p=subscribe" name="subscribeform" target="windowName" onsubmit="window.open('', this.target,'dialog,modal,scrollbars=no,resizable=no,width=550,height=300,left=0,top=0');">
+					<form method=post action="http://newsletter.hackerspace-bremen.de/lists/?p=subscribe&id=2" name="subscribeform" target="windowName" onsubmit="window.open('', this.target,'dialog,modal,scrollbars=no,resizable=no,width=550,height=300,left=0,top=0');">
 
 						<input type="hidden" name="formtoken" value="bf131fba57df676a6aa3e2bab13c9a2f" />
 						<table border=0>
@@ -113,8 +113,8 @@
 								</td>
 							</tr>
 						</table>
-						<input type="hidden" name="list[1]" value="signup">
-						<input type="hidden" name="listname[1]" value="test"/>
+						<input type="hidden" name="list[2]" value="signup">
+						<input type="hidden" name="listname[2]" value="test"/>
 						<div style="display:none">
 							<input type="text" name="VerificationCodeX" value="" size="20">
 						</div>

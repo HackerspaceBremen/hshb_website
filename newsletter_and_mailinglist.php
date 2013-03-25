@@ -70,7 +70,7 @@
 						</p>
 					</form>
 
-					<h1 id="newsletter">Abboniere unseren Newsletter: </h1>
+					<h1 id="newsletter">Abonniere unseren Newsletter: </h1>
 					<p>
 						Über unseren Newsletter erhälst du alle drei Monate Informationen über Projekte, Veranstaltungen und den Verein selber.
 						Du möchtest nur ab und zu mal Informationen zu dem Verein erhalten? Dann ist der Newsletter genau richtig für dich! 

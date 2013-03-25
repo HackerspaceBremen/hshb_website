@@ -8,10 +8,10 @@
 		<meta name="keywords" content="Hackerspace, Hobby, Werkstatt,
 		Bremen, entwerfen, programmieren, löten, bauen, Workshops, Vorträge, Kunst, Handwerk, Informatik, Elektronik, 3D-Druck,">
 		<meta name="copyright" content="Hackerspace Bremen e.V.">
-		<meta name="author" content="Daniel Wendt-Fröhlich">
-		<link rel="stylesheet" type="text/css" href="index.css">
-		<link rel="icon" href="favicon.ico" type="image/x-icon">
-		<style type="text/css"></style>
+		<meta name="author" content="Daniel Wendt-Fröhlich,Steve Liedtke">
+		<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<script src="javascripts/newsletter.js"></script>
 	</head>
 	<body>
 		<div id="body">
@@ -21,7 +21,7 @@
 				<? include ("basicPhps/leftside.php"); ?>
 				<!-- Hauptbereich -->
 				<div id="content">
-					<a href="http://chili.hackerspace-bremen.de/projects/web/wiki/Wiki"><img src="banner.png" border=0 width=470></img></a>
+					<a href="be_a_member.php"><img src="images/banner.png" border=0 width=470></img></a>
 					<h1>Aktuell</h1>
 					<!-- Atom-Feed-Reader-->  
 					<?php
@@ -30,7 +30,7 @@
 						require_once(MAGPIE_DIR . 'rss_fetch.inc');
 						$url = 'https://chili.hackerspace-bremen.de/news.atom';
 						$rss = fetch_rss( $url );
-						$rss->items = array_slice($rss->items, 0, 10); //begrenzt auf 10 Beiträge
+						$rss->items = array_slice($rss->items, 0, 6); //begrenzt auf 6 Beiträge
 						// print_r($rss); // Gibt komplettes Array aus.
 						echo "<table>";
 						foreach ($rss->items as $item) {
@@ -39,8 +39,8 @@
 							$content = $item['atom_content'];
 							$updated = date('j.m.Y, H:i', strtotime($item['updated']));
 							$author = $item['author_name'];
-							
-							echo "<tr><td width=52><img src=icon.png></img></td><td>";
+							echo "<tr><td>";
+							//echo "<tr><td width=52><img src='images/icon.png'></img></td><td>";
 							echo "<a href=$link><h2>$title</h2></a>";
 							echo "<p>$content</p>";
 							echo "<p style='text-align:right;'><small>vom $updated , $author </small></p>";

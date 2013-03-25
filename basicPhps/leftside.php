@@ -2,20 +2,33 @@
 
 <div id="sidebar-1">
 
-	<img src="logo.png" width=180></img>
+	<img src="images/logo.png"></img>
 
-	<!--<a href="http://www.hackerspace-bremen.de" target=_blank><h1>Newsletter (bald)</h1></a>-->
-
-	<h1>Follow on</h1>
-	<ul>
-		<li><a href="http://www.facebook.com/pages/Hackerspace-Bremen/217887601561428?ref=ts" target=_blank>Facebook</a></li>
-		<li><a href="https://plus.google.com/106849621647585475724" target=_blank rel="publisher">Google+</a></li>
-		<li><a href="https://twitter.com/hspacehb" target=_blank>Twitter</a></li>
-	</ul>
-	<br /><a href="HackerspaceBremen-Flyer.pdf" target=_blank><img src=flyer.jpg width=80></img><p style="margin-top:5px;">Download Flyer (PDF)</p></a>
+	<h1>Folge uns auf: </h1>
+	
+	<div>
+		<a href="https://www.facebook.com/pages/Hackerspace-Bremen/217887601561428" target=_blank>
+			<img class="snimage" src="images/facebook.png"></img>
+		</a>
+		<a href="https://plus.google.com/106849621647585475724" target=_blank>
+			<img class="snimage" src="images/googleplus.png"></img>
+		</a>
+		<a href="https://twitter.com/hspacehb" target=_blank>
+			<img class="snimage" src="images/twitter.png"></img>
+		</a>
+	</div>
+	<br/>
+	<br/>
+	<a href="be_a_member.php">&rarr; Werde Mitglied</a>
+	<br/>
+	<br/>
+	<a href="newsletter_and_mailinglist.php#newsletter">&rarr; Newsletter</a> 
+	<br/>
+	<br/>
+	<a href="newsletter_and_mailinglist.php#mailinglist">&rarr; Mailingliste</a> 
+	<br/>
+	<br/>
+	<br /><a href="files/HackerspaceBremen-Flyer.pdf" target=_blank><img src="images/flyer.jpg"></img><p style="margin-top:5px;">Download Flyer (PDF)</p></a>
 	<br />
-	<br /><a href="https://chili.hackerspace-bremen.de/attachments/download/5/Satzung.pdf" target=_blank>Download Satzung (PDF)</a>
-	<br />
-	<br /><a href="https://chili.hackerspace-bremen.de/projects/web/wiki/Mitglied_werden">&rarr; Mitglied werden</a>
 
 </div>

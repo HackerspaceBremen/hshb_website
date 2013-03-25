@@ -22,8 +22,8 @@
 						echo $json_output['RESULT']['ST5'];	
 					?>
 				</h3>
-				<a href="https://play.google.com/store/apps/details?id=de.hackerspacebremen"><img alt="Get it on Google Play" src="./gplay.png" width=100></a>
-				<a href="https://chrome.google.com/webstore/detail/hackerspace-bremen/apadeikhfnipflbiglhdcilnfocbikhc"><img alt="Get it in the Chrome Web Store" src="./chrome-ext.png" width=100 /></a>
+				<a href="https://play.google.com/store/apps/details?id=de.hackerspacebremen"><img alt="Get it on Google Play" src="images/gplay.png" width=100></a>
+				<a href="https://chrome.google.com/webstore/detail/hackerspace-bremen/apadeikhfnipflbiglhdcilnfocbikhc"><img alt="Get it in the Chrome Web Store" src="images/chrome-ext.png" width=100 /></a>
 			</td>
 		</tr>
 	</table>
@@ -33,7 +33,7 @@
 	<table>
 		<tr>
 			<td>
-				Montags, 19:00-21:00 <br>&rarr;<b>Open Space und </b><br>&rarr;<b>jeden 2.Montag "Bremen.js"-Stammtisch</b>
+				Montags, 19:00-21:00 <br>&rarr;<b>Open Space oder </b><br>&rarr;<b>jeden 2.Montag "Bremen.js"-Stammtisch</b>
 				<br /><br />Dienstags, ab 19:00 <br>&rarr;<b>Öffentlicher Themenabend</b>
 				<br /><br />Mittwochs, ab 17:00 <br>&rarr;<b>Roboter bauen und programmieren</b>
 				<br /><br />Mittwochs, 19:00-21:00 <br>&rarr;<b>eve(ning) of projects</b>
@@ -42,7 +42,7 @@
 			</td>
 		</tr>
 	</table>
-	<p  style="text-align: right; margin: 0px; padding: 0px"><a href="https://chili.hackerspace-bremen.de/projects/veranstaltungen/wiki/Wiki"> &rarr; Details und weitere Termine</a></p>
+	<p  style="text-align: right; margin: 0px; padding: 0px"><a href="events.php"> &rarr; Details und weitere Termine</a></p>
 </div>
 
 <?php

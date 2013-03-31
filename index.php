@@ -28,20 +28,26 @@
 						define('MAGPIE_DIR', 'magpierss/');
 						define('MAGPIE_CACHE_AGE', 600);
 						require_once(MAGPIE_DIR . 'rss_fetch.inc');
-						$url = 'https://chili.hackerspace-bremen.de/news.atom?key=805614cad417775206a812eee70fbec4fc596ffb';
+						$url = 'https://chili.hackerspace-bremen.de/news.atom';
 						$rss = fetch_rss( $url );
 						$rss->items = array_slice($rss->items, 0, 6); //begrenzt auf 6 Beiträge
 						// print_r($rss); // Gibt komplettes Array aus.
 						echo "<table>";
 						foreach ($rss->items as $item) {
-							$title = $item['title'];
+							$title_chili = $item['title'];
+							$title_array = explode(' - ',$title_chili);
+							$category = $title_array[0];
+							$title = '';
+							for ($i = 1; $i <= count($title_array); $i++) {
+								$title .= $title_array[$i];
+							}
 							$link = $item['link'];
 							$content = $item['atom_content'];
 							$updated = date('j.m.Y, H:i', strtotime($item['updated']));
 							$author = $item['author_name'];
 							echo "<tr><td>";
-							//echo "<tr><td width=52><img src='images/icon.png'></img></td><td>";
 							echo "<a href=$link><h2>$title</h2></a>";
+							echo "<h3><b>Kategorie:</b> $category</h3>";
 							echo "<p>$content</p>";
 							echo "<p style='text-align:right;'><small>vom $updated , $author </small></p>";
 							echo "<hr></hr></td></tr>";

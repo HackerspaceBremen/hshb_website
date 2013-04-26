@@ -36,9 +36,9 @@
 				Montags, 19:00-21:00 <br>&rarr;<b>Open Space oder </b><br>&rarr;<b>jeden 2.Montag "Bremen.js"-Stammtisch</b>
 				<br /><br />Dienstags, ab 19:00 <br>&rarr;<b>Öffentlicher Themenabend</b>
 				<br /><br />Mittwochs, ab 17:00 <br>&rarr;<b>Roboter bauen und programmieren</b>
-				<br /><br />Mittwochs, 19:00-21:00 <br>&rarr;<b>eve(ning) of projects</b>
-				<br /><br />Donnerstags, 19:00-21:30 <br>&rarr;<b>"notopic"</b>
-				<br /><br />Freitags, 19:00-21:00 <br>&rarr;<b>Rapid Prototyping</b>
+				<br /><br />Mittwochs, ab 19:00 <br>&rarr;<b>eve(ning) of projects</b>
+				<br /><br />Donnerstags, ab 19:00 <br>&rarr;<b>Rapid Prototyping (3D-Druck Abend)</b>
+				<br /><br />Freitags, ab 19:00 <br>&rarr;<b>"notopic"</b>
 			</td>
 		</tr>
 	</table>

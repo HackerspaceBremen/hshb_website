@@ -33,7 +33,7 @@
 	<table>
 		<tr>
 			<td>
-				Montags, 19:00-21:00 <br>&rarr;<b>Open Space oder </b><br>&rarr;<b>jeden 2.Montag "Bremen.js"-Stammtisch</b>
+				Montags, ab 19:00 <br>&rarr;<b>Open Space oder </b><br>&rarr;<b>jeden 2.Montag "Bremen.js"-Stammtisch</b>
 				<br /><br />Dienstags, ab 19:00 <br>&rarr;<b>Öffentlicher Themenabend</b>
 				<br /><br />Mittwochs, ab 17:00 <br>&rarr;<b>Roboter bauen und programmieren</b>
 				<br /><br />Mittwochs, ab 19:00 <br>&rarr;<b>eve(ning) of projects</b>

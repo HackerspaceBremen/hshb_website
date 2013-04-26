@@ -319,3 +319,7 @@ strong, p{
 .snimage{
 	width: 50px;
 }
+
+.feed_category{
+	margin-top:-5px;
+}

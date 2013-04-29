@@ -38,7 +38,7 @@
 				<br /><br />Mittwochs, ab 17:00 <br>&rarr;<b>Roboter bauen und programmieren</b>
 				<br /><br />Mittwochs, ab 19:00 <br>&rarr;<b>eve(ning) of projects</b>
 				<br /><br />Donnerstags, ab 19:00 <br>&rarr;<b>Rapid Prototyping (3D-Druck Abend)</b>
-				<br /><br />Freitags, ab 19:00 <br>&rarr;<b>"notopic"</b>
+				
 			</td>
 		</tr>
 	</table>

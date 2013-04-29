@@ -6,12 +6,12 @@ This repository holds the source code for the website of Hackerspace Bremen e.V.
 Developed By
 ============
 
-* Daniel Wendt-Fröhlich
+* Hackerspace Bremen e.V.
 
 License
 =======
 
-    Copyright (C) 2013 Daniel Wendt-Fröhlich
+    Copyright (C) 2013 Hackerspace Bremen e.V.
  
 	This program is free software; you can redistribute it and/or modify it under the terms of the 
 	GNU General Public License as published by the Free Software Foundation; either version 3 of 
@@ -24,4 +24,5 @@ License
 	You can find a copy of the GNU General Public License on http://www.gnu.org/licenses/gpl.html.
 
 	Contributors:
-		Daniel Wendt-Fröhlich
+		Steve Liedtke (https://github.com/dragondagda)
+		Daniel Wendt-FrÃ¶hlich (https://github.com/danielwf)

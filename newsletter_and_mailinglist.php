@@ -4,7 +4,7 @@
 		<title>Mailingliste und Newsletter - Hackerspace Bremen e.V.</title>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta http-equiv="Content-Style-Type" content="text/css">
-		<meta name="description" content="Hackerspace Bremen, mack|hack|modify, Deine Hobbywerkstatt in Bremen">
+		<meta name="description" content="Hackerspace Bremen, make|hack|modify, Deine Hobbywerkstatt in Bremen">
 		<meta name="keywords" content="Hackerspace, Hobby, Werkstatt,
 		Bremen, entwerfen, programmieren, löten, bauen, Workshops, Vorträge, Kunst, Handwerk, Informatik, Elektronik, 3D-Druck,">
 		<meta name="copyright" content="Hackerspace Bremen e.V.">

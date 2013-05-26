@@ -73,7 +73,7 @@
     function displayImages($content) 
     { 
        $updatedContent = str_replace("<img", "<img class='singleImage'", $content);
-       $updatedContent = str_replace("<p", "<p class='floatLeft'",$updatedContent);
+       //$updatedContent = str_replace("<p", "<p class='floatLeft'",$updatedContent);
        echo $updatedContent;
     } 
   ?> 

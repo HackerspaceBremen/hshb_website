@@ -323,7 +323,6 @@ strong, p{
 .singleImage{
   width: 300px;
   float:right !important;
-  border: 1pt solid #0C3256 !important;
 }
 
 .feed_category{

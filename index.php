@@ -55,7 +55,7 @@
   							echo "<a href=$link><h2>$title</h2></a>";
   							echo "<h3 class='feed_category'><b>Kategorie:</b> $category</h3>";
   							echo "<p>".displayImages($content)."</p>";
-  							echo "<p style='text-align:right;clear:both'><small>vom $updated, $author </small></p>";
+  							echo "<p style='text-align:right'><small>vom $updated, $author </small></p>";
   							echo "<hr></hr></td></tr>";
   						}
   						echo "</table>";

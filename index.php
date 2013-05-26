@@ -54,7 +54,7 @@
   							echo "<tr><td>";
   							echo "<a href=$link><h2>$title</h2></a>";
   							echo "<h3 class='feed_category'><b>Kategorie:</b> $category</h3>";
-  							echo "<p>$content</p>";
+  							echo "<p>".displayImages($content)."</p>";
   							echo "<p style='text-align:right;'><small>vom $updated, $author </small></p>";
   							echo "<hr></hr></td></tr>";
   						}
@@ -68,4 +68,14 @@
 			</div>
 		</div>
 	</body>
+  
+  <?php 
+    function displayImages($content) 
+    { 
+       // TODO change class of image
+       $updatedContent = str_replace("<img", "<img class='singleImage'", $content);
+       
+       echo $updatedContent;
+    } 
+  ?> 
 </html>

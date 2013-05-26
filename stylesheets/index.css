@@ -320,6 +320,10 @@ strong, p{
 	width: 50px;
 }
 
+.singleImage{
+  width: 10px;
+}
+
 .feed_category{
 	margin-top:-5px;
 }

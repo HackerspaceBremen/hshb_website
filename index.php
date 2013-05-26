@@ -32,29 +32,34 @@
                     '?key=afdca4771b193929976af544d5a6fb24abe6da83';
 						$rss = fetch_rss( $url );
 						$rss->items = array_slice($rss->items, 0, 6); //begrenzt auf 6 Beiträge
-						// print_r($rss); // Gibt komplettes Array aus.
-						echo "<table>";
-						foreach ($rss->items as $item) {
-							$title_chili = $item['title'];
-							$title_array = explode(' - ',$title_chili);
-							$category = $title_array[0];
-							$title = '';
-							for ($i = 1; $i <= count($title_array); $i++) {
-								$title .= $title_array[$i];
-							}
-							$link = $item['link'];
-							$content = $item['atom_content'];
-							$updated = date('j.m.Y, H:i', strtotime($item['updated']));
-							$author = $item['author_name'];
-							echo "<tr><td>";
-							echo "<a href=$link><h2>$title</h2></a>";
-							echo "<h3 class='feed_category'><b>Kategorie:</b> $category</h3>";
-							echo "<p>$content</p>";
-							echo "<p style='text-align:right;'><small>vom $updated, $author </small></p>";
-							echo "<hr></hr></td></tr>";
-						}
-						echo "</table>";
-						
+						if(count($rss->items)==0){
+              echo '<p><b>Unser Vereinsarchiv besitzt momentan keine Newsbeiträge.</b> '.
+              'Ein Grund dafür könnten Umbauarbeiten sein.</p>'
+            }else{
+              // print_r($rss); // Gibt komplettes Array aus.
+  						echo "<table>";
+              
+  						foreach ($rss->items as $item) {
+  							$title_chili = $item['title'];
+  							$title_array = explode(' - ',$title_chili);
+  							$category = $title_array[0];
+  							$title = '';
+  							for ($i = 1; $i <= count($title_array); $i++) {
+  								$title .= $title_array[$i];
+  							}
+  							$link = $item['link'];
+  							$content = $item['atom_content'];
+  							$updated = date('j.m.Y, H:i', strtotime($item['updated']));
+  							$author = $item['author_name'];
+  							echo "<tr><td>";
+  							echo "<a href=$link><h2>$title</h2></a>";
+  							echo "<h3 class='feed_category'><b>Kategorie:</b> $category</h3>";
+  							echo "<p>$content</p>";
+  							echo "<p style='text-align:right;'><small>vom $updated, $author </small></p>";
+  							echo "<hr></hr></td></tr>";
+  						}
+  						echo "</table>";
+            }
 					?>
 					<p  style="text-align: right; margin: 0px; padding: 0px"><a href="http://chili.hackerspace-bremen.de/news"> &rarr; Alle Einträge</a></p>
 				</div>

@@ -72,9 +72,8 @@
   <?php 
     function displayImages($content) 
     { 
-       // TODO change class of image
        $updatedContent = str_replace("<img", "<img class='singleImage'", $content);
-       
+       $updatedContent = str_replace("<p", "<p class='floatLeft'",$updatedContent);
        echo $updatedContent;
     } 
   ?> 

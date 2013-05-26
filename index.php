@@ -33,8 +33,8 @@
 						$rss = fetch_rss( $url );
 						$rss->items = array_slice($rss->items, 0, 6); //begrenzt auf 6 Beiträge
 						if(count($rss->items)==0){
-              echo '<p><b>Unser Vereinsarchiv besitzt momentan keine Newsbeiträge.</b> '.
-              'Ein Grund dafür könnten Umbauarbeiten sein.</p>'
+              echo "<p><b>Unser Vereinsarchiv besitzt momentan keine Newsbeiträge.</b> ".
+              "Ein Grund dafür könnten Umbauarbeiten sein.</p>";
             }else{
               // print_r($rss); // Gibt komplettes Array aus.
   						echo "<table>";

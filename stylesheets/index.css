@@ -321,7 +321,9 @@ strong, p{
 }
 
 .singleImage{
-  width: 10px;
+  width: 300px;
+  float:right;
+  border: 1pt solid #0C3256;
 }
 
 .feed_category{

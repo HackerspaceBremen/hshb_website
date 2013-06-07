@@ -65,7 +65,10 @@
 						<a href="http://chili.hackerspace-bremen.de/news"> &rarr; Alle Einträge</a>
 						<a href='http://www.feedly.com/home#subscription/feed%2Fhttp%3A%2F%2Fhttps%3A%2F%2Fchili.hackerspace-bremen.de%2Fnews.atom' 
 						target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-logo-green_2x.png' 
-						alt='follow us in feedly' width='28' height='28'></a>
+						alt='Folge uns mit feedly' width='28' height='28'></a>
+						<a href='https://chili.hackerspace-bremen.de/news.atom' 
+						target='blank'><img id='feedlyFollow' src='images/rss_icon_glass_blue32.PNG' 
+						alt='Link zu unserem Atom Feed' width='28' height='28'></a>
 					</p>
 				</div>
 				<? include ("basicPhps/rightside.php"); ?>

@@ -28,7 +28,7 @@
 						define('MAGPIE_DIR', 'magpierss/');
 						define('MAGPIE_CACHE_AGE', 600);
 						require_once(MAGPIE_DIR . 'rss_fetch.inc');
-						$url = 'https://chili.hackerspaceUnknown-bremen.de/projects/test-news-unterprojekt/news.atom'.
+						$url = 'https://chili.hackerspace-bremen.de/projects/test-news-unterprojekt/news.atom'.
                     '?key=afdca4771b193929976af544d5a6fb24abe6da83';
 						$rss = fetch_rss( $url );
 						$rss->items = array_slice($rss->items, 0, 6); //begrenzt auf 6 Beiträge

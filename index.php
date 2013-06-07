@@ -61,7 +61,12 @@
   						echo "</table>";
             }
 					?>
-					<p  style="text-align: right; margin: 0px; padding: 0px"><a href="http://chili.hackerspace-bremen.de/news"> &rarr; Alle Einträge</a></p>
+					<p  style="text-align: right; margin: 0px; padding: 0px">
+						<a href="http://chili.hackerspace-bremen.de/news"> &rarr; Alle Einträge</a>
+						<a href='http://www.feedly.com/home#subscription/feed%2Fhttp%3A%2F%2Fhttps%3A%2F%2Fchili.hackerspace-bremen.de%2Fnews.atom' 
+						target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-logo-green_2x.png' 
+						alt='follow us in feedly' width='28' height='28'></a>
+					</p>
 				</div>
 				<? include ("basicPhps/rightside.php"); ?>
 				<? include ("basicPhps/footer.php"); ?>

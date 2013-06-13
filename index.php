@@ -63,7 +63,7 @@
 					?>
 					<p  style="text-align: right; margin: 0px; padding: 0px">
 						<a href="http://chili.hackerspace-bremen.de/news" style="vertical-align:middle;"> &rarr; Alle Einträge</a>
-						<a href='http://www.feedly.com/home#subscription/feed%2Fhttp%3A%2F%2Fhttps%3A%2F%2Fchili.hackerspace-bremen.de%2Fnews.atom' 
+						<a href='http://www.feedly.com/home#subscription/feed%2Fhttps%3A%2F%2Ffreemyfeed.com%2Ffeed%2FaHR0cHM6Ly9jaGlsaS5oYWNrZXJzcGFjZS1icmVtZW4uZGUvbmV3cy5hdG9tOjo6OnJKSnRLOG1TbG82Z1ZHRmZqbmpEQWpvNk1RPT0' 
 						target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-logo-green_2x.png' 
 						alt='Folge uns mit feedly' width='28' height='28'></a>
 						<a href='https://chili.hackerspace-bremen.de/news.atom' 

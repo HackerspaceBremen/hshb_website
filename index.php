@@ -31,35 +31,57 @@
 						$url = 'https://chili.hackerspace-bremen.de/news.atom';
 						$rss = fetch_rss( $url );
 						$rss->items = array_slice($rss->items, 0, 6); //begrenzt auf 6 Beiträge
-						// print_r($rss); // Gibt komplettes Array aus.
-						echo "<table>";
-						foreach ($rss->items as $item) {
-							$title_chili = $item['title'];
-							$title_array = explode(' - ',$title_chili);
-							$category = $title_array[0];
-							$title = '';
-							for ($i = 1; $i <= count($title_array); $i++) {
-								$title .= $title_array[$i];
-							}
-							$link = $item['link'];
-							$content = $item['atom_content'];
-							$updated = date('j.m.Y, H:i', strtotime($item['updated']));
-							$author = $item['author_name'];
-							echo "<tr><td>";
-							echo "<a href=$link><h2>$title</h2></a>";
-							echo "<h3 class='feed_category'><b>Kategorie:</b> $category</h3>";
-							echo "<p>$content</p>";
-							echo "<p style='text-align:right;'><small>vom $updated, $author </small></p>";
-							echo "<hr></hr></td></tr>";
-						}
-						echo "</table>";
-						
+						if(count($rss->items)==0){
+              echo "<p><b>Unser Vereinsarchiv besitzt momentan keine Newsbeiträge.</b> ".
+              "Ein Grund dafür könnten Umbauarbeiten sein.</p>";
+            }else{
+              // print_r($rss); // Gibt komplettes Array aus.
+  						echo "<table>";
+              
+  						foreach ($rss->items as $item) {
+  							$title_chili = $item['title'];
+  							$title_array = explode(' - ',$title_chili);
+  							$category = $title_array[0];
+  							$title = '';
+  							for ($i = 1; $i <= count($title_array); $i++) {
+  								$title .= $title_array[$i];
+  							}
+  							$link = $item['link'];
+  							$content = $item['atom_content'];
+  							$updated = date('j.m.Y, H:i', strtotime($item['updated']));
+  							$author = $item['author_name'];
+  							echo "<tr><td>";
+  							echo "<a href=$link><h2>$title</h2></a>";
+  							echo "<h3 class='feed_category'><b>Kategorie:</b> $category</h3>";
+  							echo "<p>".displayImages($content)."</p>";
+  							echo "<p style='text-align:right;clear:both'><small>vom $updated, $author </small></p>";
+  							echo "<hr></hr></td></tr>";
+  						}
+  						echo "</table>";
+            }
 					?>
-					<p  style="text-align: right; margin: 0px; padding: 0px"><a href="http://chili.hackerspace-bremen.de/news"> &rarr; Alle Einträge</a></p>
+					<p  style="text-align: right; margin: 0px; padding: 0px">
+						<a href="http://chili.hackerspace-bremen.de/news" style="vertical-align:middle;"> &rarr; Alle Einträge</a>
+						<a href='http://www.feedly.com/home#subscription/feed%2Fhttps%3A%2F%2Ffreemyfeed.com%2Ffeed%2FaHR0cHM6Ly9jaGlsaS5oYWNrZXJzcGFjZS1icmVtZW4uZGUvbmV3cy5hdG9tOjo6OnJKSnRLOG1TbG82Z1ZHRmZqbmpEQWpvNk1RPT0' 
+						target='blank'><img id='feedlyFollow' src='http://s3.feedly.com/img/follows/feedly-follow-logo-green_2x.png' 
+						alt='Folge uns mit feedly' width='28' height='28'></a>
+						<a href='https://chili.hackerspace-bremen.de/news.atom' 
+						target='blank'><img id='feedlyFollow' src='images/rss_icon_glass_blue32.PNG' 
+						alt='Link zu unserem Atom Feed' width='24' height='24'></a>
+					</p>
 				</div>
 				<? include ("basicPhps/rightside.php"); ?>
 				<? include ("basicPhps/footer.php"); ?>
 			</div>
 		</div>
 	</body>
+  
+  <?php 
+    function displayImages($content) 
+    { 
+       $updatedContent = str_replace("<img", "<img class='singleImage'", $content);
+       //$updatedContent = str_replace("<p", "<p class='floatLeft'",$updatedContent);
+       echo $updatedContent;
+    } 
+  ?> 
 </html>

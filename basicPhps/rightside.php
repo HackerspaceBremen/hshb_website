@@ -44,6 +44,7 @@
 		</tr>
 	</table>
 	<p  style="text-align: right; margin: 0px; padding: 0px"><a href="events.php"> &rarr; Details und weitere Termine</a></p>
+	<h3> Alle Veranstaltungen sowie die Nutzung der Werkstatt sind auch für Besucher kostenfrei! </h3>
 </div>
 
 <?php

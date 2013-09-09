@@ -35,6 +35,7 @@
 			<td>
 				Montags, ab 19:00 <br>&rarr;<b>Open Space</b>
 				<br />&rarr;<b>jeden 3.Montag "Cocoaheads"-Stammtisch</b>
+				<br />&rarr;<b>jeden 4.Montag "OSM Bremen"-Stammtisch</b>
 				<br /><br />Dienstags, ab 19:00 <br>&rarr;<b>Öffentlicher Themenabend</b>
 				<br /><br />Mittwochs, ab 17:00 <br>&rarr;<b>Roboter bauen und programmieren</b>
 				<br /><br />Mittwochs, ab 19:00 <br>&rarr;<b>eve(ning) of projects</b>

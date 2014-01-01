@@ -1,7 +1,7 @@
 hshb_website
 ============
 
-This repository holds the source code for the website of Hackerspace Bremen e.V.
+This repository holds the source code for the wordpress plugin of Hackerspace Bremen e.V.
 
 Developed By
 ============
@@ -22,7 +22,3 @@ License
 	the GNU General Public License for more details.
 
 	You can find a copy of the GNU General Public License on http://www.gnu.org/licenses/gpl.html.
-
-	Contributors:
-		Steve Liedtke (https://github.com/dragondagda)
-		Daniel Wendt-Fröhlich (https://github.com/danielwf)

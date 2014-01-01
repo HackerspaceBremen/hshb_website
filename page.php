@@ -10,15 +10,15 @@
                 <?php the_content(); ?>
             </div>
             <?php endwhile; endif; ?>
-            <?php comments_template(); ?>
+            <?php if (comments_open()) comments_template(); ?>
         </div><!-- content -->
         <div id="sidebar">
             <a href="<?php get_home_url(); ?>/"><script type="text/javascript">var logo = createLogo(true);logo.toggleAll();</script>
             <noscript><img id="pixel" src="<?php bloginfo('template_directory'); ?>/noscript.png" /></noscript>
             <div id="logo"></div></a>
             <?php dynamic_sidebar( 1 ); ?> 
-        </div>
-        <div class="clear"></div>
+        </div><!-- sidebar -->
         <div class="push"></div>
+        <div class="clear"></div>
     </div><!-- content-wrapper -->
 <?php get_footer(); ?>
